@@ -1,12 +1,7 @@
-import {
-  getImageFromDB,
-  getTotalPagesFromDB,
-  setImageInDB,
-  setTotalPagesInDB,
-} from '@/lib/indexedDB';
-import api from '@/lib/interceptor';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 import { useEffect } from 'react';
+import { getImageFromDB, getTotalPagesFromDB, setImageInDB, setTotalPagesInDB } from './indexedDB';
+import api from './interceptor';
 import { getProxiedImageUrl } from './utils';
 
 type PageImageData = {

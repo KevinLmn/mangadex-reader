@@ -1,9 +1,11 @@
 'use client';
-import { ChapterList } from '@/app/(features)/chapters/chapter-list';
-import { Card } from '@/app/components/ui/card';
-import { cleanOldEntries } from '@/lib/indexedDB';
-import api from '@/lib/interceptor';
-import { useMangaCover, useMangaDetails, usePrefetchFirstPage } from '@/lib/queries';
+
+import { ChapterList } from '@/features/details/ChapterList';
+import { Card } from '@/shared/components/Card';
+import { cleanOldEntries } from '@/shared/lib/indexedDB';
+import api from '@/shared/lib/interceptor';
+import { useMangaCover, useMangaDetails, usePrefetchFirstPage } from '@/shared/lib/queries';
+import { Chapter } from '@/shared/types/types';
 import { useQueryClient } from '@tanstack/react-query';
 import { ArrowLeft } from 'lucide-react';
 import Image from 'next/image';
@@ -11,36 +13,6 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { toast } from 'sonner';
-
-interface Chapter {
-  id: string;
-  attributes: {
-    chapter: string;
-    title: string;
-    volume: string;
-    pages: number;
-    publishAt: string;
-  };
-}
-
-interface Manga {
-  id: string;
-  attributes?: {
-    title: { en: string };
-    description: { en: string };
-    tags: Array<{
-      attributes: {
-        name: { en: string };
-      };
-    }>;
-  };
-  relationships: Array<{
-    type: string;
-    attributes: {
-      fileName: string;
-    };
-  }>;
-}
 
 export default function GetMangaById() {
   const [page, setPage] = useState<number>(1);

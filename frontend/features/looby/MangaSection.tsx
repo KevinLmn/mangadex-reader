@@ -1,37 +1,14 @@
 'use client';
-import { Loading } from '@components/ui/loading';
-import { Reveal } from '@components/ui/Reveal';
-import { usePrefetchMangaCover, usePrefetchMangaDetails } from '@lib/queries';
+import { Loading } from '@/shared/components/Loading';
+import { Reveal } from '@/shared/components/Reveal';
+import { usePrefetchMangaCover, usePrefetchMangaDetails } from '@/shared/lib/queries';
+import { Manga } from '@/shared/types/types';
 import { memo } from 'react';
 import { MangaCard } from './MangaCard';
 
 export enum SectionType {
   LatestUpdates = 'LatestUpdates',
   Popular = 'Popular',
-}
-
-interface MangaRelationship {
-  type: string;
-  attributes: {
-    fileName: string;
-  };
-}
-
-interface MangaAttributes {
-  title: {
-    en: string;
-  };
-  description: {
-    en: string;
-  };
-  lastChapter?: string;
-  updatedAt?: string;
-}
-
-export interface Manga {
-  id: string;
-  attributes: MangaAttributes;
-  relationships: MangaRelationship[];
 }
 
 interface MangaSectionProps {

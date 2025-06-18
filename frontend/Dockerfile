@@ -52,7 +52,6 @@ USER nextjs
 # Copy final standalone output from build
 COPY --from=build --chown=nextjs:nodejs /app/frontend/.next/standalone/ ./
 COPY --from=build --chown=nextjs:nodejs /app/frontend/.next/static ./frontend/.next/static
-COPY --from=build --chown=nextjs:nodejs /app/frontend/public ./frontend/public
 
 EXPOSE 3011
 ENV PORT=3011

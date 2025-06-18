@@ -1,8 +1,8 @@
 'use client';
-import { Button } from '@/app/components/ui/button';
-import CustomPagination from '@/app/components/ui/pagination';
-import { cleanOldEntries } from '@/lib/indexedDB';
-import { useCurrentPageImage, usePrefetchAdjacentPages } from '@/lib/queries';
+import { Button } from '@/shared/components/Button';
+import { Pagination } from '@/shared/components/Pagination';
+import { cleanOldEntries } from '@/shared/lib/indexedDB';
+import { useCurrentPageImage, usePrefetchAdjacentPages } from '@/shared/lib/queries';
 import { useQueryClient } from '@tanstack/react-query';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -243,11 +243,11 @@ export default function GetMangaPage() {
         <div className="absolute inset-0 backdrop-blur-md" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="max-w-md flex items-center pb-8">
-            <CustomPagination
-              mangaId={id as string}
-              chapterId={chapterId as string}
-              totalPages={Number.isFinite(total) ? total : 1}
+            <Pagination
+              totalPages={total}
               page={page}
+              mode="link"
+              hrefBuilder={(page) => `/${id}/chapter/${chapterId}/${page}`}
             />
           </div>
         </div>

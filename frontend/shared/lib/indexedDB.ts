@@ -1,8 +1,5 @@
 import Dexie from 'dexie';
 
-/**
- * Cache duration constants (in milliseconds)
- */
 const CACHE_DURATION = {
   SHORT: 30 * 1000, // 30 seconds
   MEDIUM: 30 * 60 * 1000, // 30 minutes
@@ -10,9 +7,6 @@ const CACHE_DURATION = {
   IMAGE: 7 * 24 * 60 * 60 * 1000, // 7 days
 };
 
-/**
- * Types for database schema
- */
 interface ImageEntry {
   key: string;
   blob: Blob;
@@ -25,10 +19,6 @@ interface TotalPagesEntry {
   timestamp: number;
 }
 
-/**
- * MangaDB - IndexedDB wrapper for manga storage
- * Handles caching of images and total pages
- */
 class MangaDB extends Dexie {
   images!: Dexie.Table<ImageEntry, string>;
   totalPages!: Dexie.Table<TotalPagesEntry, string>;
@@ -42,15 +32,8 @@ class MangaDB extends Dexie {
   }
 }
 
-// Initialize database
 const db = new MangaDB();
 
-/**
- * Store an image in IndexedDB
- * @param key - Unique identifier for the image
- * @param base64Image - Base64 encoded image data
- * @returns Promise resolving to true if successful
- */
 export const setImageInDB = async (key: string, blob: Blob): Promise<boolean> => {
   try {
     const timestamp = Date.now();
@@ -62,11 +45,6 @@ export const setImageInDB = async (key: string, blob: Blob): Promise<boolean> =>
   }
 };
 
-/**
- * Retrieve an image from IndexedDB
- * @param key - Unique identifier for the image
- * @returns Promise resolving to the base64 image or null if not found
- */
 export const getImageFromDB = async (key: string): Promise<Blob | null> => {
   try {
     const entry = await db.images.get(key);
@@ -77,12 +55,6 @@ export const getImageFromDB = async (key: string): Promise<Blob | null> => {
   }
 };
 
-/**
- * Store total pages in IndexedDB
- * @param key - Unique identifier for the total pages
- * @param value - Total pages value
- * @returns Promise resolving to true if successful
- */
 export const setTotalPagesInDB = async (key: string, value: number): Promise<boolean> => {
   try {
     const timestamp = Date.now();
@@ -94,11 +66,6 @@ export const setTotalPagesInDB = async (key: string, value: number): Promise<boo
   }
 };
 
-/**
- * Retrieve total pages from IndexedDB
- * @param key - Unique identifier for the total pages
- * @returns Promise resolving to the total pages value or null if not found
- */
 export const getTotalPagesFromDB = async (key: string): Promise<number | null> => {
   try {
     const entry = await db.totalPages.get(key);
@@ -109,11 +76,6 @@ export const getTotalPagesFromDB = async (key: string): Promise<number | null> =
   }
 };
 
-/**
- * Clean old entries from IndexedDB based on their age
- * This prevents the database from growing too large
- * @returns Promise resolving when cleanup is complete
- */
 export const cleanOldEntries = async (): Promise<void> => {
   try {
     const now = Date.now();
@@ -149,12 +111,7 @@ export const cleanOldEntries = async (): Promise<void> => {
   }
 };
 
-/**
- * Clear all data from the database
- * Useful for troubleshooting or for a "clear cache" feature
- * @returns Promise resolving when database is cleared
- */
-export const clearDatabase = async (): Promise<void> => {
+const clearDatabase = async (): Promise<void> => {
   try {
     await db.images.clear();
     await db.totalPages.clear();

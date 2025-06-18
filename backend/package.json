@@ -25,7 +25,8 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc --project tsconfig.json",
     "start": "node dist/index.js",
-    "warm-cache": "tsx src/scripts/warmCache.ts"
+    "warm-cache": "tsx src/scripts/warmCache.ts",
+    "knip": "knip"
   },
   "name": "backend",
   "version": "1.0.0",

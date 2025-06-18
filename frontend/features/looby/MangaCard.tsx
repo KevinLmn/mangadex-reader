@@ -1,10 +1,10 @@
 'use client';
-import { useMangaCover } from '@/lib/queries';
-import { Reveal } from '@components/ui/Reveal';
+import { Reveal } from '@/shared/components/Reveal';
+import { useMangaCover } from '@/shared/lib/queries';
+import { Manga } from '@/shared/types/types';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import { Manga } from './MangaSection';
 
 interface Props {
   manga: Manga;
