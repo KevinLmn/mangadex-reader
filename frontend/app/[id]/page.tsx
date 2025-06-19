@@ -92,6 +92,7 @@ export default function GetMangaById() {
               alt={data?.manga.data.attributes?.title?.en || 'Manga Cover'}
               width={300}
               height={450}
+              priority
               className="aspect-[2/3] w-full rounded-lg object-cover"
             />
           )}

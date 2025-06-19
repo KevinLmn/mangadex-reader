@@ -9,26 +9,6 @@ type PageImageData = {
   numberOfPages?: number;
 };
 
-const toBase64 = (buffer: ArrayBuffer | { type: string; data: number[] }): string => {
-  let byteArray: Uint8Array;
-
-  if ('type' in buffer && Array.isArray((buffer as any).data)) {
-    byteArray = new Uint8Array((buffer as any).data);
-  } else {
-    byteArray = new Uint8Array(buffer as ArrayBuffer);
-  }
-
-  let binary = '';
-  for (let i = 0; i < byteArray.byteLength; i++) {
-    binary += String.fromCharCode(byteArray[i] ?? 0);
-  }
-  return `data:image/jpeg;base64,${btoa(binary)}`;
-};
-
-const toBlobUrl = (buffer: ArrayBuffer): string => {
-  const blob = new Blob([buffer], { type: 'image/jpeg' });
-  return URL.createObjectURL(blob);
-};
 const fetchImageAndTotalPages = async (
   chapterId: string,
   page: number,
@@ -203,3 +183,15 @@ export const usePrefetchMangaCover = () => {
     });
   };
 };
+
+export function useChapterMetadata(chapterId: string) {
+  const queryClient = useQueryClient();
+  return useQuery({
+    queryKey: ['chapter-meta', chapterId],
+    queryFn: async () => {
+      const { data } = await api.get(`/manga/chapter/${chapterId}/total`);
+      return data.totalPages;
+    },
+    staleTime: 5 * 60 * 1000,
+  });
+}

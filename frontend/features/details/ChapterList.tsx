@@ -115,6 +115,7 @@ export function ChapterList({
         page={page}
         mode="button"
         onPageChange={setPage}
+        scrollToTop={false}
       />
     </div>
   );

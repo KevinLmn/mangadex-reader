@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import React from 'react';
 import { usePaginationRange } from '../hooks/usePaginationRange';
 import { Button } from './Button';
@@ -11,6 +12,7 @@ interface BasePaginationProps {
   totalPages: number;
   page: number;
   mode: PaginationMode;
+  scrollToTop?: boolean;
 }
 
 interface LinkPaginationProps extends BasePaginationProps {
@@ -26,8 +28,14 @@ interface ButtonPaginationProps extends BasePaginationProps {
 type PaginationProps = LinkPaginationProps | ButtonPaginationProps;
 
 export const Pagination = (props: PaginationProps) => {
-  const { totalPages, page, mode} = props;
+  const { totalPages, page, mode, scrollToTop = true} = props;
+  const router = useRouter();
   const range = usePaginationRange(totalPages, page);
+
+  const handleLinkClick = (href: string, e: React.MouseEvent) => {
+    e.preventDefault();
+    router.push(href, { scroll: scrollToTop });
+  };
 
   return (
     <div className="flex justify-center mt-8">
@@ -35,7 +43,7 @@ export const Pagination = (props: PaginationProps) => {
         {/* Previous */}
         {page > 1 && (
           mode === 'link' ? (
-            <Link href={props.hrefBuilder(page - 1)}>
+            <Link href={props.hrefBuilder(page - 1)} onClick={(e) => handleLinkClick(props.hrefBuilder(page - 1), e)}>
               <Button size="sm" variant="outline" className="h-8 w-8 p-0"><ChevronLeftIcon /></Button>
             </Link>
           ) : (
@@ -47,7 +55,7 @@ export const Pagination = (props: PaginationProps) => {
         {range.map((num, idx) =>
           typeof num === 'number' ? (
             mode === 'link' ? (
-              <Link key={idx} href={props.hrefBuilder(num)}>
+              <Link key={idx} href={props.hrefBuilder(num)} onClick={(e) => handleLinkClick(props.hrefBuilder(num), e)}>
                 <Button
                   variant={num === page ? 'default' : 'outline'}
                   size="sm"
@@ -77,7 +85,7 @@ export const Pagination = (props: PaginationProps) => {
         {/* Next */}
         {page < totalPages && (
           mode === 'link' ? (
-            <Link href={props.hrefBuilder(page + 1)}>
+            <Link href={props.hrefBuilder(page + 1)} onClick={(e) => handleLinkClick(props.hrefBuilder(page + 1), e)}>
               <Button size="sm" variant="outline" className="h-8 w-8 p-0"><ChevronRightIcon /></Button>
             </Link>
           ) : (
