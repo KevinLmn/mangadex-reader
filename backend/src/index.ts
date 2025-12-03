@@ -1,13 +1,13 @@
 import cors from "@fastify/cors";
 import fastify from "fastify";
-import { downloadChapterController } from "./controllers/downloadChapterController.js";
-import { getChapterPageController } from "./controllers/getChapterPageController.js";
-import { getChapterTotalPageController } from "./controllers/getChapterTotalPage.js";
-import { getLatestMangas } from "./controllers/getLatestMangasController.js";
-import { getMangaController } from "./controllers/getMangaController.js";
-import { getPopularMangas } from "./controllers/getPopularMangasController.js";
-import { loginController } from "./controllers/loginController.js";
-import { refreshTokenController } from "./controllers/refreshTokenController.js";
+import { downloadChapterController } from "./controllers/DONEdownloadChapterController.js";
+import { getChapterPageController } from "./controllers/DONEgetChapterPageController.js";
+import { getChapterTotalPageController } from "./controllers/DONEgetChapterTotalPage.js";
+import { getLatestMangas } from "./controllers/DONEgetLatestMangasController.js";
+import { getMangaController } from "./controllers/DONEgetMangaController.js";
+import { getPopularMangas } from "./controllers/DONEgetPopularMangasController.js";
+import { loginController } from "./controllers/?loginController.js";
+import { refreshTokenController } from "./controllers/?refreshTokenController.js";
 import { loginMiddleware } from "./middlewares.js";
 import { proxyRoutes } from "./routes/proxy.js";
 
