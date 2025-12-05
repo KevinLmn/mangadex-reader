@@ -1,24 +1,26 @@
 services:
-  backend:
+  backend-fastify:
     build:
       context: .
-      dockerfile: backend/Dockerfile.dev
+      dockerfile: backend-fastify/Dockerfile.dev
     container_name: manga-backend-dev
     ports:
-      - "3012:3012"
+      - '3012:3012'
     env_file:
-      - backend/.env
+      - backend-fastify/.env
     volumes:
       - .:/app
       - /app/node_modules
-      - /app/backend/node_modules
+      - /app/backend-fastify/node_modules
     environment:
       - CHOKIDAR_USEPOLLING=true
       - WATCHPACK_POLLING=true
     depends_on:
       - redis
       - postgres
-    command: sh -c "pnpm --filter backend exec prisma generate && pnpm --filter backend dev"
+    working_dir: /app/backend-fastify
+    command: sh -c "pnpm exec prisma generate && pnpm dev"
+
   frontend:
     build:
       context: .
@@ -27,14 +29,15 @@ services:
     env_file:
       - frontend/.env
     ports:
-      - "3011:3011"
+      - '3011:3011'
     volumes:
       - .:/app
       - /app/node_modules
       - /app/frontend/node_modules
     depends_on:
-      - backend
-    command: pnpm --filter frontend dev
+      - backend-fastify
+    working_dir: /app/frontend
+    command: pnpm dev
     environment:
       - CHOKIDAR_USEPOLLING=true
       - CHOKIDAR_INTERVAL=100
@@ -45,7 +48,7 @@ services:
     image: redis:7-alpine
     container_name: manga-redis-dev
     ports:
-      - "6379:6379"
+      - '6379:6379'
     volumes:
       - redis_data:/data
     command: redis-server --appendonly yes --requirepass $REDIS_PASSWORD
@@ -57,7 +60,7 @@ services:
     image: postgres:16-alpine
     container_name: manga-postgres-dev
     ports:
-      - "5432:5432"
+      - '5433:5432'
     environment:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}

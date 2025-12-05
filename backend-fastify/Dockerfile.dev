@@ -11,8 +11,11 @@ COPY pnpm-lock.yaml package.json pnpm-workspace.yaml ./
 COPY tsconfig.json ./
 COPY frontend/package.json ./frontend/
 COPY backend-fastify/package.json ./backend-fastify/
+COPY backend-fastify/prisma ./backend-fastify/prisma/
+
+RUN apt-get update -y && apt-get install -y openssl
 
 # Install all dependencies
 RUN pnpm install --frozen-lockfile
 
-WORKDIR /app/frontend
+WORKDIR /app/backend-fastify
