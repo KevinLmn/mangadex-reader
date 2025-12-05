@@ -31,7 +31,7 @@ const nextConfig = {
         protocol: 'http',
         hostname: 'localhost',
         port: '3012',
-        pathname: '/proxy/image/**',
+        pathname: '/api/proxy/image/**',
       },
     ],
     unoptimized: true,

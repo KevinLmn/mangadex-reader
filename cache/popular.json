@@ -1,0 +1,5135 @@
+{
+  "result": "ok",
+  "response": "collection",
+  "data": [
+    {
+      "id": "d1a9fdeb-f713-407f-960c-8326b586e6fd",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Vagabond"
+        },
+        "altTitles": [
+          {
+            "fr": "Avare"
+          },
+          {
+            "vi": "Lãng Khách"
+          },
+          {
+            "ru": "Бродяга"
+          },
+          {
+            "ar": "المتشرد"
+          },
+          {
+            "th": "วากาบอนด์"
+          },
+          {
+            "ja": "バガボンド"
+          },
+          {
+            "zh": "浪客行"
+          },
+          {
+            "ko": "베가본드"
+          },
+          {
+            "es-la": "Vagabundo"
+          },
+          {
+            "es": "Vagabundo"
+          },
+          {
+            "tr": "Avare"
+          },
+          {
+            "tr": "Serseri"
+          }
+        ],
+        "description": {
+          "en": "Growing up in the late 16th century Sengoku era Japan, Shinmen Takezou is shunned by the local villagers as a devil child due to his wild and violent nature. Running away from home with a fellow boy at age 17, Takezo joins the Toyotomi army to fight the Tokugawa clan at the Battle of Sekigahara. However, the Tokugawa win a crushing victory, leading to nearly three hundred years of Shogunate rule. Takezo and his friend manage to survive the battle and afterwards swear to do great things with their lives. However, after their paths separate, Takezo becomes a wanted criminal and must change his name and his nature in order to escape an ignoble death.  \n  \n**Awards:**\n- Won the 24th Kodansha Manga Award in the general category in 2000.\n- Won the Tezuka Osamu Cultural Prize in 2002 \n**Note:** was nominated for the 2003 Eisner Award in the Best Writer/Artist category.",
+          "es": "Creciendo en el Japón de la era Sengoku de finales del siglo XVI, Shinmen Takezou es rechazado por los aldeanos locales como un niño demonio debido a su naturaleza salvaje y violenta. A los 17 años, Takezou se escapa de casa con un compañero y se une al ejército Toyotomi para luchar contra el clan Tokugawa en la batalla de Sekigahara. Sin embargo, los Tokugawa obtienen una aplastante victoria, lo que da lugar a casi trescientos años de gobierno del Shogunato. Takezou y su amigo consiguen sobrevivir a la batalla y después juran hacer grandes cosas con sus vidas. Sin embargo, cuando sus caminos se separan, Takezou se convierte en un criminal buscado y debe cambiar su nombre y su naturaleza para escapar de una muerte innoble.  \n  \n**Premios:**\n    - Ganó el 24º Premio Kodansha de Manga en la categoría general en 2000.\n    - Ganó el Premio Cultural Tezuka Osamu en 2002\n    **Nota:** fue nominado al Premio Eisner 2003 en la categoría de Mejor Escritor/Artista.",
+          "es-la": "Creciendo en el Japón de la era Sengoku de finales del siglo XVI, Shinmen Takezou es rechazado por los aldeanos locales como un niño demonio debido a su naturaleza salvaje y violenta. A los 17 años, Takezou se escapa de casa con un compañero y se une al ejército Toyotomi para luchar contra el clan Tokugawa en la batalla de Sekigahara. Sin embargo, los Tokugawa obtienen una aplastante victoria, lo que da lugar a casi trescientos años de gobierno del Shogunato. Takezou y su amigo consiguen sobrevivir a la batalla y después juran hacer grandes cosas con sus vidas. Sin embargo, cuando sus caminos se separan, Takezou se convierte en un criminal buscado y debe cambiar su nombre y su naturaleza para escapar de una muerte innoble.  \n  \n**Premios:**\n    - Ganó el 24º Premio Kodansha de Manga en la categoría general en 2000.\n    - Ganó el Premio Cultural Tezuka Osamu en 2002\n    **Nota:** fue nominado al Premio Eisner 2003 en la categoría de Mejor Escritor/Artista."
+        },
+        "isLocked": true,
+        "links": {
+          "al": "30656",
+          "ap": "vagabond",
+          "kt": "1482",
+          "mu": "su6blie",
+          "mal": "656",
+          "engtl": "https://www.viz.com/vagabond"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "seinen",
+        "status": "hiatus",
+        "year": 1999,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "33771934-028e-4cb3-8744-691e866a923e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Historical"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Psychological"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Martial Arts"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Sexual Violence"
+              },
+              "description": {},
+              "group": "content",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Gore"
+              },
+              "description": {},
+              "group": "content",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Tragedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-02-09T05:29:14+00:00",
+        "updatedAt": "2025-11-15T21:31:03+00:00",
+        "version": 23,
+        "availableTranslatedLanguages": [
+          "it",
+          "pt-br",
+          "es-la",
+          "en",
+          "pl",
+          "hu",
+          "el",
+          "ka",
+          "uk",
+          "id",
+          "ar",
+          "tr",
+          "ru"
+        ],
+        "latestUploadedChapter": "e34fb546-9fda-4db2-acbd-a148e0540b37"
+      },
+      "relationships": [
+        {
+          "id": "0b59098f-13c0-41cb-a110-9cbcec72dc0c",
+          "type": "author",
+          "attributes": {
+            "name": "Inoue Takehiko",
+            "imageUrl": null,
+            "biography": {
+              "en": "Takehiko Inoue (井上 雄彦, Inoue Takehiko, born 12 January 1967) is a Japanese manga artist. He is best known for the basketball series [Slam Dunk (1990–1996)](https://mangadex.org/title/319df2e2-e6a6-4e3a-a31c-68539c140a84/slam-dunk), and the jidaigeki manga [Vagabond](https://mangadex.org/title/d1a9fdeb-f713-407f-960c-8326b586e6fd/vagabond), which are two of the best-selling manga series in history. Many of his works are about basketball, Inoue himself being a huge fan of the sport. His works sold in North America through Viz Media are **Slam Dunk**, **Vagabond** and [Real](https://mangadex.org/title/62b74aa6-24df-4b91-b76d-39e7ab3c3ca5/real), although **Slam Dunk** was earlier translated by **Gutsoon! Entertainment**. In 2012, Inoue became the first recipient of the Cultural Prize at the Asia Cosmopolitan Awards.\n\n---\nHis real name is **Nariai Takehiko (成合雄彦)**.\n\nInoue Takehiko first started playing basketball in high school as a means to winning attention from the opposite sex, he was in kendo club in elementary school and junior high. After being immersed in the competitive sport, he became a huge basketball fan. His love for the sport can be easily seen both from his choice in using it as a central theme in his works, as well as the unmistakable ability in capturing the details of it all.\n\nHe went to Kumamoto University but dropped out, and became assistant to [Hojo Tsukasa](https://mangadex.org/author/bdd3b599-48be-49d2-8bea-877e38704ad6/tsukasa-hojo) for ten months during [City Hunter](https://mangadex.org/title/f1c716b5-e82f-4625-a646-280cfa66abad/city-hunter).\n\n[Hara Yasuhisa](https://mangadex.org/author/6637c726-8d02-456f-b837-65e1b190d0af/hara-yasuhisa), [Tatsuzawa Katsumi](https://www.mangaupdates.com/authors.html?id=6613), [Mihara Kazuto](https://mangadex.org/author/345dc961-0229-40a5-8419-14cd2e94774a/mihara-kazuto) and [Yuki Izumi](https://mangadex.org/author/b6b68daf-f191-44fc-9ef6-b01376160bd5/yuki-izumi) are former assistants of his.\n\n[Mizushima Shinji](https://mangadex.org/author/370fdd0d-ff84-4edf-beb5-db78cdca3f85/mizushima-shinji)’s [Dokaben](https://www.mangaupdates.com/series.html?id=84088) was one of the works that made him to become a mangaka.\n\nHe is the artist for the X360 RPG \"[Lost Odyssey](https://www.xbox.com/en-US/games/store/lost-odyssey/BZB4S8FS8T5B)\".\n\nMarried and has a son. \n"
+            },
+            "twitter": "https://twitter.com/inouetake",
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": "https://itplanning.co.jp/",
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2022-02-17T13:41:00+00:00",
+            "version": 4
+          }
+        },
+        {
+          "id": "d0afd13f-36dd-4723-8e73-ea9d338b2492",
+          "type": "author",
+          "attributes": {
+            "name": "Yoshikawa Eiji",
+            "imageUrl": null,
+            "biography": {},
+            "twitter": null,
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2021-04-19T21:59:45+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "0b59098f-13c0-41cb-a110-9cbcec72dc0c",
+          "type": "artist"
+        },
+        {
+          "id": "8e74a0f1-09a0-407f-9bfd-d4dc961e54e9",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "37",
+            "fileName": "05f8dcb4-8ea1-48db-a0b1-3a8fbf695e5a.jpg",
+            "locale": "ja",
+            "createdAt": "2022-07-24T22:10:43+00:00",
+            "updatedAt": "2022-07-24T22:10:43+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "577469f9-fc50-4e3b-ba38-bccf4138c637",
+          "type": "manga",
+          "related": "sequel"
+        },
+        {
+          "id": "6e5ddee5-eccb-48cc-b6bb-43488cc9791f",
+          "type": "manga",
+          "related": "colored"
+        },
+        {
+          "id": "88b6fcca-57dd-4df2-aac5-8935eaa6c34d",
+          "type": "manga",
+          "related": "alternate_story"
+        },
+        {
+          "id": "9560d60b-bc1f-4a4f-9420-c8eae79f8104",
+          "type": "manga",
+          "related": "side_story"
+        },
+        {
+          "id": "9843917a-1546-4672-b5ad-3ecc5f7020af",
+          "type": "manga",
+          "related": "alternate_story"
+        },
+        {
+          "id": "a2a9216f-6a8d-4b28-bb9f-8ee549245787",
+          "type": "manga",
+          "related": "alternate_story"
+        },
+        {
+          "id": "a9bf14be-fcff-4eea-9c45-ba3e40d399fa",
+          "type": "manga",
+          "related": "alternate_story"
+        },
+        {
+          "id": "fe18fe91-fa82-441c-9d87-66414d59a622",
+          "type": "manga",
+          "related": "same_franchise"
+        }
+      ]
+    },
+    {
+      "id": "984df7d5-ae4c-43c6-aa65-737b9f37e5ef",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "My Bias Gets on the Last Train"
+        },
+        "altTitles": [
+          {
+            "ko": "내 최애는 막차를 탄다"
+          },
+          {
+            "ko-ro": "Nae Choeaeneun Makchareul Tanda"
+          },
+          {
+            "fr": "My Bias Gets on the Last Train"
+          },
+          {
+            "ro": "Preferatul meu urcă în ultimul tren"
+          },
+          {
+            "pt-br": "Minha idola favorita pega o último trem"
+          },
+          {
+            "ru": "Моя биас садится на последний поезд"
+          },
+          {
+            "id": "My Bias Gets on the Last Train"
+          },
+          {
+            "id": "Biasku Naik Kereta Terakhir"
+          },
+          {
+            "vi": "Định mệnh đôi ta giao thoa nơi bến tàu"
+          },
+          {
+            "zh": "末班车上的Crush"
+          },
+          {
+            "zh-hk": "與本命的末班車"
+          }
+        ],
+        "description": {
+          "en": "“Meeting her on the last train again today, if only I could talk to her!”\nCollege student Lee Yeowoon works late and takes the last train every night.\nEach time, he runs into Shin Haein, a woman carrying a guitar. As if by chance, as if by fate, the two keep meeting and discover that their favorite artist is the indie musician “Long Afternoon.” They gradually grow closer and so the story began.\n\n---\nEvery night, Yeo-un takes the last train home—same route, same time, same routine. But one thing keeps catching his eye: a girl with a guitar and a presence that lingers in his mind. When a shared love for the indie band Long Afternoon sparks a conversation, their late-night encounters begin to turn into something more. But Hae-in isn’t just another fan—she’s the voice behind the band, a secret she can’t afford to reveal. As music draws them closer, the truth may threaten to pull them apart. When the final note plays, will their story end in harmony… or heartbreak?",
+          "fr": "«La croiser encore ce soir dans le dernier train... si seulement j’osais lui parler!»\nLee Yeowoon, un étudiant, travaille tard et prend le dernier train chaque nuit.\nÀ chaque trajet, il aperçoit Shin Haein, une femme portant une guitare. Par un curieux hasard, ou peut-être par un coup du destin, leurs chemins ne cessent de se croiser. Ils découvrent alors qu’ils partagent un même artiste préféré: le musicien indie Long Afternoon. Peu à peu, ils se rapprochent, et c’est ainsi que leur histoire commence.\n\n---\nÉtudiant à la fac et employé dans un café le soir, Lee Yeo-Woon rentre systématiquement chez lui avec le dernier métro. Pas un jour ne se passe sans que sa route ne croise celle de Shin Hae-In, la jeune fille à la guitare. Par le plus grand des hasards, tous deux s’avèrent être fans de Long Afternoon, artiste montante de la scène indé. Mais la tournure que va prendre leur relation sera de nature à semer le doute: et si leur rencontre n’avait rien de fortuit?",
+          "hu": "Minden éjjel Yeo-un az utolsó vonattal indul haza — ugyanaz az útvonal, ugyanaz az idő, ugyanaz a rutin. Csakhogy valami folyton megragadja a tekintetét: egy gitáros lány, aki nem megy ki a fejéből. Amikor kiderül, hogy mindketten rajonganak a Long Afternoon nevű indie zenekarért, beszélgetésbe elegyednek, és éjszakai összefutásaik lassan valami többé válnak. Csakhogy Hae-in nem csak egy rajongó — ő a zenekar hangja, egy titok, amit nem fedhet fel. Ahogy a zene egyre közelebb hozza őket egymáshoz, az igazság azzal fenyeget, hogy szétválasztja őket. Amikor az utolsó hang is elhallgat, vajon harmóniában ér véget a történetük… vagy összetört szívvel?",
+          "id": "Lee Yeowoon adalah seorang mahasiswa yang bekerja sampai larut malam hingga membuatnya selalu naik kereta terakhir. Saat menunggu kereta terakhir itu, dia selalu berpapasan dengan Shin Haein, wanita misterius yang membawa gitar. Mereka menjadi lebih dekat setelah percakapan pertama. Namun, tanpa Yeowoon sadari, wanita misterius itu ternyata musisi indie “Long Afternoon” yang merupakan idolanya. Apakah nantinya Yeowoon mengetahui bahwa Haein adalah musisi yang dia idolakan? Akankah Haein mengungkap identitasnya?",
+          "ko": "“오늘도 막차에서 만난 그녀, 그녀와 말할 수 있다면!” \n 대학생 이여운은 늦게까지 일하고 매일 막차를 탄다.  \n그때마다 마주치는 기타를 멘 여자 신해인. 우연인 듯 인연인 듯 만나는 두 사람은  \n서로의 최애가 인디 뮤지션 “긴 오후”라는 걸 알게 되고 점점 가까워지게 된다.",
+          "pl": "„Znowu spotkałem ją dziś w ostatnim pociągu... Gdybym tylko odważył się z nią porozmawiać!” Lee Yeowoon, student college’u, codziennie pracuje do późna i wraca do domu ostatnim pociągiem. Za każdym razem natrafia na Shin Haein – dziewczynę z gitarą. Jakby to był przypadek... a może przeznaczenie? Ich drogi ciągle się krzyżują, aż w końcu odkrywają, że oboje są fanami niezależnego muzyka o pseudonimie „Long Afternoon”. Zaczynają się do siebie zbliżać – i tak zaczyna się ich historia.",
+          "ro": "Întâlnind-o și astăzi în ultimul tren, de-aș putea doar să vorbesc cu ea! Studentul Lee Yeowoon lucrează până târziu și ia în fiecare noapte ultimul tren. De fiecare dată, o întâlnește pe Shin Haein, o fată care poartă o chitară. Ca și cum ar fi o întâmplare, ca și cum ar fi destin, cei doi continuă să se întâlnească și descoperă că artistul lor preferat este muzicianul indie „Long Afternoon”. Treptat, se apropie și așa a început povestea.",
+          "ru": "Про что манхва «Моя биас садится на последний поезд»:\n«Вот бы поговорить с девушкой, что я вновь встретил сегодня на последнем поезде!»\nСтудент Ли Ёвун работает допоздна и всегда садится на последний поезд.\nКаждый раз он встречает девушку с гитарой, Шин Хэин. Эти встречи кажутся не то совпадением, не то судьбой.\nУзнав, что у них один и тот же любимый инди-музыкант — «Долгий вечер», они становятся ближе друг к другу.",
+          "zh": "“今天也在末班车上遇见了她，如果能和她搭话该有多好!”\n大学生李厉云每天都工作到很晚，乘坐末班车回家。每当这时，他都会遇到背着吉他的女生，申海仁。\n两人看似偶然又如同命中注定般相遇了，在得知彼此最喜欢的独立音乐人都是“漫长午后”后，他们渐渐变得亲近起来。",
+          "pt-br": "\"Encontrá-la no último trem novamente hoje, se ao menos eu pudesse falar com ela!\"\n\nO estudante universitário Lee Yeowoon trabalha até tarde e pega o último trem todas as noites. A cada vez, ele encontra Shin Haein, uma mulher carregando um violão. Como obra do destino, os dois continuam se encontrando e descobrem que seu artista favorito é o músico indie \"Long Afternoon\". Eles se aproximam gradualmente e assim a história começa.",
+          "zh-hk": "「今天也在末班車上遇到她了...要是能跟她說話就好了><！」 大學生李如雲每天都工作到很晚，總是搭末班車，每次都會在月台上遇到背著吉他的女子申慧仁。看似偶然又像命中注定的兩人，發現彼此的本命都是獨立音樂家「漫長午後」，於是越走越近......"
+        },
+        "isLocked": false,
+        "links": {
+          "al": "187944",
+          "ap": "my-bias-gets-on-the-last-train",
+          "mu": "9t2tuko",
+          "mal": "178671",
+          "raw": "https://comic.naver.com/webtoon/list?titleId=834896",
+          "engtl": "https://www.webtoons.com/en/romance/my-bias-gets-on-the-last-train/list?title_no=7857"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ko",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": null,
+        "status": "ongoing",
+        "year": 2024,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Long Strip"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Romance"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Music"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Full Color"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2024-12-15T10:14:39+00:00",
+        "updatedAt": "2025-11-09T00:33:16+00:00",
+        "version": 17,
+        "availableTranslatedLanguages": [
+          "it",
+          "pt-br",
+          "fr",
+          "en",
+          "id",
+          "vi",
+          "pl"
+        ],
+        "latestUploadedChapter": "96fb5383-bc3d-4a73-896b-5a95baa181d3"
+      },
+      "relationships": [
+        {
+          "id": "299ca291-357a-4cc4-aa4d-1175da4c50a0",
+          "type": "author",
+          "attributes": {
+            "name": "JIXKSEE",
+            "imageUrl": null,
+            "biography": {},
+            "twitter": "https://twitter.com/JIXKSEE",
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": "https://www.instagram.com/JIXKSEE/",
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2025-11-09T00:35:54+00:00",
+            "version": 3
+          }
+        },
+        {
+          "id": "299ca291-357a-4cc4-aa4d-1175da4c50a0",
+          "type": "artist"
+        },
+        {
+          "id": "eb63a3d3-6d86-423f-9f62-2ca96d215622",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "1.1",
+            "fileName": "95d6c603-5993-42b0-9347-960f79d33f1a.jpg",
+            "locale": "ko",
+            "createdAt": "2025-11-09T00:31:43+00:00",
+            "updatedAt": "2025-11-09T00:31:43+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "49fdbc62-eeb4-46f3-8be5-71e265951d00",
+          "type": "creator"
+        }
+      ]
+    },
+    {
+      "id": "8b8102da-c875-4dae-a79c-c62e817ff3f5",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "On the Way to Meet Mom"
+        },
+        "altTitles": [
+          {
+            "ko": "엄마를 만나러 가는 길"
+          },
+          {
+            "en": "On My Way to See My Mom"
+          },
+          {
+            "en": "On the Way to See Mom"
+          },
+          {
+            "ko-ro": "Eommareul Mannareo Ganeun Gil"
+          },
+          {
+            "pt-br": "A caminho de ver a minha mãe"
+          }
+        ],
+        "description": {
+          "en": "Mori, a child found by a rescue team in an abandoned house, wakes up in a shelter. While adapting to an unfamiliar life, one day, he begins to be looked after with unconditional love from a mysterious sponsor... And then Mori learns about the existence of a \"mom\" when a close friend leaves with hers. The child starts to wonder about the sponsor: \"Could this person... be my mom?\"\nThis is the story of Mori's long and challenging journey to find his mom.",
+          "ko": "폐가에서 발견된 아이 '모리'는 구조대에 의해 보호소에서 눈을 뜬다. 익숙하지 않은 생활에 적응하던 어느 날 후원자에게 조건 없는 사랑을 받고 자라는데.. 친하게 지내던 친구가 엄마와 떠나고, 엄마라는 존재가 있다는 걸 알게 된 아이는 생각한다. 혹시 이 사람이.. 나의 엄마가 아닐까? 모리의 멀고도 험한 엄마 만나러 가는 이야기.",
+          "pt-br": "Mori, é uma criança que foi encontrada em uma casa abandonada e que abre os olhos em um abrigo, onde uma equipe de resgate a acolhe. Um dia, enquanto se adapta a uma vida desconhecida, ele recebe amor incondicional de um patrocinador e cresce. Quando uma amiga próxima vai embora com sua mãe, a criança, que descobre que existe uma mãe, pensa. Será que essa pessoa pode ser… minha mãe? A história da jornada de Mori para conhecer sua mãe distante e difícil."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "187189",
+          "kt": "on-the-way-to-see-mom",
+          "mu": "5rxs1es",
+          "mal": "178182",
+          "raw": "https://m.comic.naver.com/webtoon/list?titleId=834369",
+          "engtl": "https://www.webtoons.com/en/fantasy/on-the-way-to-meet-mom/list?title_no=7525"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ko",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": null,
+        "status": "completed",
+        "year": 2024,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Long Strip"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Web Comic"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Full Color"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2024-11-28T00:56:58+00:00",
+        "updatedAt": "2025-07-20T12:44:05+00:00",
+        "version": 18,
+        "availableTranslatedLanguages": [
+          "it",
+          "en",
+          "pt-br",
+          "fr",
+          "id",
+          "es-la",
+          "vi"
+        ],
+        "latestUploadedChapter": "1140b6b0-b385-4903-a1ac-1bbe2f69c3f2"
+      },
+      "relationships": [
+        {
+          "id": "8733efae-b103-44ee-9c36-ddc36c16bfeb",
+          "type": "author",
+          "attributes": {
+            "name": "Gomyang",
+            "imageUrl": null,
+            "biography": {},
+            "twitter": null,
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2024-03-05T03:35:59+00:00",
+            "updatedAt": "2024-03-05T03:35:59+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "8733efae-b103-44ee-9c36-ddc36c16bfeb",
+          "type": "artist"
+        },
+        {
+          "id": "7491e84e-3b34-498d-ac59-4f398cb2b0b4",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "1",
+            "fileName": "c59932dc-ec0b-4ba0-9cd7-1a45398e38fa.jpg",
+            "locale": "ko",
+            "createdAt": "2024-11-28T00:56:59+00:00",
+            "updatedAt": "2024-11-28T00:56:59+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "25226f02-d729-4575-8e9b-8ee2a3701582",
+          "type": "creator"
+        }
+      ]
+    },
+    {
+      "id": "418791c0-35cf-4f87-936b-acd9cddf0989",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "ja-ro": "Kaoru Hana wa Rin to Saku"
+        },
+        "altTitles": [
+          {
+            "ja": "薫る花は凛と咲く"
+          },
+          {
+            "en": "The Fragrant Flower Blooms with Dignity"
+          },
+          {
+            "ko": "향기로운 꽃은 늠름하게 핀다"
+          },
+          {
+            "zh-hk": "薰香花朵凛然綻放"
+          },
+          {
+            "fr": "Bloom"
+          },
+          {
+            "de": "Kaoru und Rin"
+          },
+          {
+            "id": "Kesuma Harum Merekah Anggun"
+          },
+          {
+            "pl": "Kaoru i Rin. Rozkwitając z tobą"
+          },
+          {
+            "pt-br": "A Nobreza das Flores"
+          },
+          {
+            "ru": "Благоухающий цветок расцветает с достоинством"
+          },
+          {
+            "ru": "Очаровательный цветок расцветает с достоинством"
+          },
+          {
+            "es": "La nobleza de las flores"
+          },
+          {
+            "es-la": "La fragante flor florece con dignidad"
+          },
+          {
+            "es-la": "La elegante flor florece con dignidad"
+          },
+          {
+            "th": "ดอกรักผลิบานที่กลางใจ"
+          },
+          {
+            "tr": "Güzel Kokulu Çiçekler Zarafetle Açar"
+          },
+          {
+            "vi": "Hoa Thơm Kiêu Hãnh"
+          },
+          {
+            "vi": "Những đóa hoa thơm nở diễm kiều"
+          }
+        ],
+        "description": {
+          "en": "In a certain place, there are two neighboring high schools. Chidori High School, a bottom-feeder boys' school where idiots gather, and Kikyo Girls' School, a well-established girls' school. Rintaro Tsumugi, a strong and quiet second year student at Chidori High School, meets Kaoruko Waguri, a girl who comes as a customer while helping out at his family's cake shop. Rintaro feels comfortable spending time with Kaoruko, but she is a student at Kikyo Girls, a neighboring school that thoroughly dislikes Chidori High.\n___\n**Links:**\n- [Official Twitter (JP)](https://twitter.com/kaoruhana_mp)\n- Official English - [K MANGA](https://kmanga.kodansha.com/title/10023/episode/320130) (U.S. Only | Simulpub)",
+          "fr": "Au cœur d'une banlieue japonaise, se dressent face à face deux établissements que tout oppose : Chidori, le lycée public pour garçons, réunit les pires cancres de la ville, tandis que le prestigieux Kikyô rassemble les esprits les plus brillants des filles de bonne famille.\n\nDonnant régulièrement un coup de main à la pâtisserie familiale, Rintarô Tsumugi, élève à Chidori, sympathise avec l'une de ses clientes régulières, Kaoruko Waguri. Alors qu'il sent peu à peu un lien se tisser entre eux, le lycéen apprend que la jeune fille fréquente Kikyô et que comme tous les élèves de ces établissements, ils sont supposés se haïr mutuellement ! La rivalité entre leurs lycées est-elle forcément signe de fatalité ?",
+          "ja": "とある場所に、隣接するふたつの高校がある。バカが集まる底辺男子校・千鳥高校と、由緒正しきお嬢様校・桔梗女子。強面で物静かな千鳥高校２年・紬 凛太郎は、実家のケーキ屋の手伝い中にお客として来ていた少女・和栗薫子と出会う。薫子との時間を心地よく感じる凛太郎だったが、彼女は徹底して千鳥を嫌う桔梗女子の生徒で……！？",
+          "vi": "Ở một nơi nào đó, có 2 trường cao trung lân cận. Cao trung Chidori, một trường nam sinh cấp thấp hội tụ đủ những thằng đần, trường nữ sinh Kikyo, một trường nữ sinh danh giá . Rintaro Tsugumi, một nam sinh năm 2 to khỏe và trầm tính tại trường Chidori, bắt gặp Kaoruko Waguri, một khách hàng khi cậu đang giúp việc tại cửa hàng bánh nhà mình . Rintaro cảm thấy thoải mái khi dành thời gian bên Kaoruko, nhưng cô lại là học sinh của trường Kikyo, ngôi trường hàng xóm cực kì căm ghét trường Chidori. Đây là câu chuyện về 2 con người ở rất gần nhưng lại rất xa",
+          "es-la": "En cierto lugar, hay dos escuelas secundarias vecinas. El instituto Chidori, una escuela masculina de mala muerte en la que se reúnen los idiotas, y el instituto femenino Kikyo, una escuela femenina bien establecida. Rintaro Tsumugi, un fuerte y tranquilo estudiante de segundo curso del instituto Chidori, conoce a Kaoruko Wakuri, una chica que llega como cliente mientras ayuda en la pastelería de su familia. Rintaro se siente cómodo pasando tiempo con Kaoruko, pero ella es alumna de las chicas de Kikyo, una escuela vecina a la que no le gusta nada el instituto Chidori. Esta es la historia de dos personas que están tan cerca y a la vez tan lejos.\n___\n- [Twitter Oficial (JA)](https://twitter.com/kaoruhana_mp)",
+          "pt-br": "Em um lugar específico, existem duas escolas secundárias vizinhas. A Escola Secundária Chidori, uma escola para rapazes considerada de nível inferior, onde se reúnem estudantes menos dedicados, e a Escola para Meninas Kikyo, uma instituição bem estabelecida. Rintaro Tsumugi, um estudante do segundo ano forte e tranquilo da Escola Secundária Chidori, conhece Kaoruko Waguri, uma garota que aparece como cliente enquanto ajuda na confeitaria da sua família. Rintaro se sente à vontade passando tempo com Kaoruko, mas ela é uma aluna da Escola para Meninas Kikyo, uma escola vizinha que tem aversão à Escola Secundária Chidori. Esta é a história de duas pessoas que estão tão próximas e, ao mesmo tempo, tão distantes."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "140475",
+          "ap": "the-fragrant-flower-blooms-with-dignity",
+          "bw": "series/345527/list",
+          "kt": "63153",
+          "mu": "efg5tyb",
+          "mal": "144267",
+          "raw": "https://pocket.shonenmagazine.com/episode/3269754496548746310"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "shounen",
+        "status": "ongoing",
+        "year": 2021,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Romance"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "School Life"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2021-11-10T17:30:57+00:00",
+        "updatedAt": "2025-11-27T09:51:49+00:00",
+        "version": 91,
+        "availableTranslatedLanguages": [
+          "pt-br",
+          "ru",
+          "es-la",
+          "en",
+          "fr",
+          "vi",
+          "id",
+          "he",
+          "ar",
+          "tr",
+          "sl"
+        ],
+        "latestUploadedChapter": "a1ca5f80-46c2-442e-83d3-4e273da78a9d"
+      },
+      "relationships": [
+        {
+          "id": "3d3ec54f-2eb7-4fb7-b2eb-0372c9f1b92e",
+          "type": "author",
+          "attributes": {
+            "name": "Mikami Saka",
+            "imageUrl": null,
+            "biography": {},
+            "twitter": "https://twitter.com/_mikami_saka_",
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-11-10T17:25:44+00:00",
+            "updatedAt": "2022-02-25T12:57:39+00:00",
+            "version": 2
+          }
+        },
+        {
+          "id": "3d3ec54f-2eb7-4fb7-b2eb-0372c9f1b92e",
+          "type": "artist"
+        },
+        {
+          "id": "9592db6c-cb9d-4be6-a0b7-3ea726fb07f9",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "21",
+            "fileName": "ab72ba1f-849f-481b-a187-374ce1802c5e.jpg",
+            "locale": "ja",
+            "createdAt": "2025-11-27T09:53:00+00:00",
+            "updatedAt": "2025-11-27T09:53:00+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "7deb02d0-a14a-431f-9310-180c282b81ba",
+          "type": "manga",
+          "related": "colored"
+        },
+        {
+          "id": "395fa758-f9b5-4dbd-ae30-69a1fe726841",
+          "type": "creator"
+        }
+      ]
+    },
+    {
+      "id": "d7f56ace-cd30-48b9-8b64-afeca0077fca",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "ko-ro": "Yeokdaegeum Yeongji Seolgyesa"
+        },
+        "altTitles": [
+          {
+            "ko": "역대급 영지 설계사"
+          },
+          {
+            "en": "The Greatest Estate Developer"
+          },
+          {
+            "ja": "史上最高の領地設計士"
+          },
+          {
+            "en": "The World's Best Engineer"
+          },
+          {
+            "zh": "史诗级领地设计师"
+          },
+          {
+            "ru": "Система всемогущего дизайнера"
+          },
+          {
+            "zh-hk": "史詩級領地設計師"
+          },
+          {
+            "es-la": "El Mejor Ingeniero del Mundo"
+          },
+          {
+            "es-la": "El Mejor Diseñador Inmobiliario"
+          },
+          {
+            "pl": "MŚCICHUJ"
+          },
+          {
+            "bn": "দ্য গ্রেটেস্ট এস্টেট ডেভেলপার"
+          },
+          {
+            "vi": "Bậc Thầy Thiết Kế Điền Trang"
+          },
+          {
+            "en": "The Greatest Estate Designer"
+          }
+        ],
+        "description": {
+          "bn": "যখন সিভিল ইঞ্জিনিয়ারিংয়ের ছাত্র সুহো কিম ফ্যান্টাসি নভেল পড়তে পড়তে ঘুমিয়ে পড়ে, তখন সে জেগে উঠে দেখে যে সে বইয়েরই এক চরিত্র হয়ে গেছে! এখন সুহো হল লয়েড ফ্রন্টেরা, একজন অলস অভিজাত ব্যক্তি, যে মদ খেতে ভালোবাসে এবং যার পরিবার বিশাল ঋণের বোঝায় জর্জরিত।\nতাঁর ইঞ্জিনিয়ারিং জ্ঞান কাজে লাগিয়ে সুহো নানান উদ্ভাবনী পরিকল্পনা তৈরি করে, যাতে ভবিষ্যতে ঘটে যাওয়ার ভয়াবহ বিপদ এড়ানো যায়।\nএকটি দৈত্যাকার হামস্টার, এক নাইট এবং বিশ্বের জাদুবিদ্যা নিয়ে, সুহো কি তার নতুন পরিবারকে ঋণের জাল থেকে মুক্ত করতে পারবে এবং উজ্জ্বল ভবিষ্যৎ গড়তে পারবে?",
+          "en": "When civil engineering student Suho Kim falls asleep reading a fantasy novel, he wakes up as a character in the book.\n\n Suho is now in the body of Lloyd Frontera, a lazy noble who loves to drink, and whose family is in a mountain of debt. Using his engineering knowledge, Suho designs inventions to avert the terrible future that lies in wait for him. \n\nWith the help of a giant hamster, a knight, and the world’s magic, can Suho dig his new family out of debt and build a better future?",
+          "ja": "大自然の中でのスローライフもよし、最高の教育機関で学ぶのもよし！交通の便はもちろんのこと、赤ちゃんからご老人までどの世代の方にもご満足いただけるワンストッププレミアムライフをフロンテラ男爵領がご提案いたします！現在、先着順にて分譲契約中！\n\n---\n- [Official Simplified Chinese Translation](https://www.dongmanmanhua.cn/BOY/shishijilingdishejishi/list?title_no=1922)\n\n- [Official Japanese Translation](https://manga.line.me/product/periodic?id=Z0001690)",
+          "ko": "소설 속 귀족이 된 토목공학도 김수호. \n그런데 뭐? 내 영지가 곧 망할 거라고? \n그럼 살려야지. 설계하고, 건설하고, 분양해서. \n\n【전 대륙이 기다려온 특별한 기회! 퍼펙트한 교통, 최상의 학군, 쾌적한 숲세권, 원스톱 프리미엄 영지 라이프의 프론테라 남작령이 여러분을 기다립니다. 선착순 분양계약중!】\n\n---\n- [Official Simplified Chinese Translation](https://www.dongmanmanhua.cn/BOY/shishijilingdishejishi/list?title_no=1922)\n\n- [Official Japanese Translation](https://manga.line.me/product/periodic?id=Z0001690)",
+          "ru": "Инженер-строитель Ким Су Хо стал аристократом на страницах романа. Но вот незадача! Поместье на грани банкротства? Тогда нужно спасать землю. Проектировать, строить и продавать. [Уникальная возможность, которую так ждал весь континент! Вас ждут идеальная транспортная развязка, лучший школьный район, приятный лесной массив и барон Фронтера, владелец уникальной недвижимости премиум-класса. Договор купли-продажи заключается в порядке очереди!]\n\n---\n- [Official Simplified Chinese Translation](https://www.dongmanmanhua.cn/BOY/shishijilingdishejishi/list?title_no=1922)\n\n- [Official Japanese Translation](https://manga.line.me/product/periodic?id=Z0001690)",
+          "zh": "穿越到小说成了废物贵族！\n逆天改命构建商业帝国！\n土木设计工程学专业的金修豪意外穿越到小说里，还成为了一个在初期就会死掉的废物贵族。已经看到小说结局的修豪知道自家的领地快玩儿完了！那得赶紧救活它啊！设计，建设，出售啊！\n\n---\n- [Official Simplified Chinese Translation](https://www.dongmanmanhua.cn/BOY/shishijilingdishejishi/list?title_no=1922)\n\n- [Official Japanese Translation](https://manga.line.me/product/periodic?id=Z0001690)",
+          "es-la": "Kim Suho, que es ingeniero civil, se convirtió en un noble dentro de una novela. ¿Y qué? ¿Mi patrimonio está a punto de fracasar? Entonces debe salvarse. Diseñar, construir y vender. [¡La esperada oportunidad especial en todo el continente! El transporte perfecto, el distrito educativo más alto, un área forestal agradable y una vida familiar de primera calidad en Baron Frontera que todos han estado esperando. ¡Un contrato por orden de llegada!"
+        },
+        "isLocked": true,
+        "links": {
+          "al": "140407",
+          "ap": "the-greatest-estate-developer",
+          "kt": "60854",
+          "mu": "chin5uq",
+          "nu": "the-greatest-estate-designer",
+          "mal": "147272",
+          "raw": "https://comic.naver.com/webtoon/list?titleId=777767",
+          "engtl": "https://www.webtoons.com/en/fantasy/the-greatest-estate-developer/list?title_no=3596"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ko",
+        "lastVolume": "",
+        "lastChapter": "210",
+        "publicationDemographic": null,
+        "status": "completed",
+        "year": 2021,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0bc90acb-ccc1-44ca-a34a-b9f3a73259d0",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Reincarnation"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Monsters"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Long Strip"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Magic"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ace04997-f6bd-436e-b261-779182193d3d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Isekai"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Web Comic"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adaptation"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Full Color"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2021-12-30T11:26:53+00:00",
+        "updatedAt": "2025-10-12T01:26:12+00:00",
+        "version": 29,
+        "availableTranslatedLanguages": [
+          "pt-br",
+          "pl",
+          "es-la",
+          "fr",
+          "en",
+          "bn"
+        ],
+        "latestUploadedChapter": "0db392d5-24df-432e-bd13-4052ea5a3ee7"
+      },
+      "relationships": [
+        {
+          "id": "45b9fad4-8bde-41bd-893f-5b4bf5a652b5",
+          "type": "author",
+          "attributes": {
+            "name": "Lee Hyunmin (이현민)",
+            "imageUrl": null,
+            "biography": {
+              "en": "**Associated Names:**\nLEE Hyun Min\nLEE HyunMin\nLife of Ruin\nYI Hyeon Min\nYI Hyeon-Min\nYI HyeonMin\n몰락인생"
+            },
+            "twitter": null,
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2023-10-24T21:44:21+00:00",
+            "version": 2
+          }
+        },
+        {
+          "id": "d26b9fd9-aa5a-48c6-ba70-052243124e06",
+          "type": "author",
+          "attributes": {
+            "name": "BK_Moon (문백경)",
+            "imageUrl": null,
+            "biography": {
+              "en": "**Associated Names:**\n- BK Brown\n- BK_Moon\n- guseo80\n- MOON Baek Kyung\n- MOON Baek-Kyung\n- MOON Baekgyeong\n- MUN Backkyung\n- MUN Baekgyeong\n- 문백경\n\n---\n**Name (in native language):**\n문백경"
+            },
+            "twitter": null,
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2024-11-14T02:45:47+00:00",
+            "version": 3
+          }
+        },
+        {
+          "id": "60fb4030-9872-4cf3-a013-2fb22dee9e53",
+          "type": "artist"
+        },
+        {
+          "id": "377eaa7d-3730-40a2-b076-f7f81b3fb894",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "2",
+            "fileName": "c2613a1e-426f-4ee3-a6f7-caf003324dc7.jpg",
+            "locale": "ko",
+            "createdAt": "2024-02-02T19:06:57+00:00",
+            "updatedAt": "2024-02-02T19:06:57+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "15ab4953-66b2-4030-bfd1-498389484191",
+          "type": "manga",
+          "related": "shared_universe"
+        },
+        {
+          "id": "4d0d1e50-f744-455a-a001-c4015a415f87",
+          "type": "manga",
+          "related": "shared_universe"
+        },
+        {
+          "id": "fb971113-f68e-4987-bc7e-77a9fa292171",
+          "type": "manga",
+          "related": "shared_universe"
+        },
+        {
+          "id": "5905fade-071b-4b0a-be41-c7599a9db603",
+          "type": "creator"
+        }
+      ]
+    },
+    {
+      "id": "0d4b349e-b7a2-4d63-9ce0-f864e790c4a2",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Veil"
+        },
+        "altTitles": [
+          {
+            "ja": "ヴェール"
+          },
+          {
+            "pt-br": "Véu"
+          }
+        ],
+        "description": {
+          "en": "\"He\", a police officer on his shift, happened to meet \"her\" on the streets, by chance.\n\nThrough its bold yet delicate brushwork and elegant prose, this stylish, full-colour comic\nillustrates the subtle air of intimacy between these two individuals.\n\n---\nA chance encounter. A handsome policeman. A beautiful woman. A tentative love affair smolders on the snowy cobblestone streets, \nout of sight from those that might keep them apart. \n\n*Veil* is a beautifully illustrated full-color romance manga, told in stylish short vignettes, beautiful illustrations, and secret moments.",
+          "pt-br": "*\"Ele\"*, um policial em serviço, acaba encontrando *\"ela\"* nas ruas, por acaso. Com traços ousados, porém delicados, e uma prosa elegante, este belíssimo mangá em cores ilustra a sutil atmosfera de intimidade entre esses dois indivíduos.  Um encontro fortuito. Um policial charmoso. Uma mulher encantadora. Um romance tímido começa a arder em meio às ruas de paralelepípedos cobertas de neve, longe dos olhos daqueles que poderiam separá-los. **Véu** é uma obra lindamente ilustrada, narrada por meio de pequenas vinhetas estilizadas, momentos secretos e cenas repletas de delicadeza."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "116170",
+          "ap": "veil",
+          "kt": "58427",
+          "mu": "l73ckc4",
+          "mal": "132678",
+          "raw": "https://j-nbooks.jp/comic/original.php?oKey=175"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "josei",
+        "status": "ongoing",
+        "year": 2019,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "33771934-028e-4cb3-8744-691e866a923e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Historical"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Romance"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Philosophical"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Full Color"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2020-05-16T11:33:16+00:00",
+        "updatedAt": "2025-11-15T23:44:10+00:00",
+        "version": 27,
+        "availableTranslatedLanguages": [
+          "vi",
+          "pl",
+          "en",
+          "ru",
+          "pt-br",
+          "th",
+          "ar"
+        ],
+        "latestUploadedChapter": "eaa95ae2-10ca-4399-8e75-c32282b40758"
+      },
+      "relationships": [
+        {
+          "id": "43c7a4d9-c608-43e8-ad3e-6f721133cf96",
+          "type": "author",
+          "attributes": {
+            "name": "Fukuda Ikumi",
+            "imageUrl": null,
+            "biography": {
+              "en": "**Name In Native Language:** フクダイクミ\n\n**Also Known As:** Kotteri (コテリ)\n\nWorks as an illustrator under the name Kotteri.\n\n[Kotteri X](https://twitter.com/_K0TTERl_)"
+            },
+            "twitter": "https://twitter.com/286meow",
+            "pixiv": "https://www.pixiv.net/users/3290573",
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2024-10-10T08:20:39+00:00",
+            "version": 5
+          }
+        },
+        {
+          "id": "43c7a4d9-c608-43e8-ad3e-6f721133cf96",
+          "type": "artist"
+        },
+        {
+          "id": "4b34b94c-417b-4e2c-bb51-2eab4bf20240",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "6",
+            "fileName": "d007f9f5-c959-4c03-9c8e-4f1bb19f5ecd.jpg",
+            "locale": "ja",
+            "createdAt": "2023-12-12T21:38:24+00:00",
+            "updatedAt": "2023-12-12T21:38:24+00:00",
+            "version": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "d90ea6cb-7bc3-4d80-8af0-28557e6c4e17",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Dungeon Meshi"
+        },
+        "altTitles": [
+          {
+            "fr": "Gloutons et Dragons"
+          },
+          {
+            "lt": "Požemio Maistas"
+          },
+          {
+            "es": "Tragones y Mazmorras"
+          },
+          {
+            "tr": "Zindan Yemeği"
+          },
+          {
+            "ru": "Подземелье вкусностей"
+          },
+          {
+            "th": "สูตรลับตำรับดันเจียน"
+          },
+          {
+            "ja": "ダンジョン飯"
+          },
+          {
+            "zh": "舌尖上的地下城"
+          },
+          {
+            "zh": "迷宫饭"
+          },
+          {
+            "es-la": "Comida de Mazmorra"
+          },
+          {
+            "uk": "Смаколики в підземеллі"
+          },
+          {
+            "vi": "Mỹ Vị Hầm Ngục"
+          },
+          {
+            "en": "Delicious in Dungeon"
+          },
+          {
+            "en": "Dungeon Food"
+          }
+        ],
+        "description": {
+          "en": "After his sister is devoured by a dragon and losing all their supplies in a failed dungeon raid, Laios and his party are determined to save his sister before she gets digested. Completely broke and having to resort to eating monsters as food, they meet a dwarf who will introduce them to the world of Dungeon Meshi - delicious cuisine made from ingredients such as the flesh of giant bats, walking mushrooms, or even screaming mandrakes.  \n  \n---\n- **Ranked 1st in the 2016 Kono Manga ga Sugoi! for Male Readers (Shonen/Seinen)**",
+          "es": "Después de que su hermana fuera devorada por un dragón y habiendo perdido todas sus provisiones, Laios y su equipo están decididos a salvar a Farin antes de que sea digerida por la gran bestia. Es así como conocen a un singular enano que los introducirá al mundo gastronómico de las mazmorras: delicias elaboradas a partir de la carne de murciélagos gigantes, hongos caminantes y mandrágoras chillonas.",
+          "id": "Seorang penjelajah muda, Laios, bersama kawan-kawannya mendapat serangan hebat dari seekor naga jauh di lantai terdalam Dungeon. Mereka kehilangan seluruh uang dan perbekalan, bahkan seorang anggota tim! Walau ingin bergegas kembali dan menyelamatkan rekannya, mereka dihalangi satu masalah besar, “Tanpa makanan dan uang, mereka pasti akan kelaparan di tengah penjelajahan!” Namun, Laios mendapat ide cemerlang, “Kita makan monster saja!”. Slime, kalajengking, basilisk, mandrake, dan kelelawar raksasa… Tidak ada satu monster pun yang luput dari perut-perut keroncongan di Dungeon!! (Gramedia.com) \n\n[Terjemah Indonesia](https://www.gramedia.com/search?q=delicious%20in%20dungeon)",
+          "vi": "Sau khi em gái bị rồng nuốt chửng và mất trắng toàn bộ đồ đạc và thức ăn trong hầm ngục, Laois cùng tàn quân quyết định quay lại để cứu em gái mình trước khi cô ấy bị tiêu hóa. Trên đường họ nghĩ ra phương án lấy quái vật để làm thức ăn và gặp được người lùn hệ dwarf, người biết nấu các món ăn ở hầm ngục. Và các nguyên liệu để nấu món ăn của họ là: nấm biết đi, dơi khổng lồ và ngay cả có độc hoang dại đáng sợ,...",
+          "pt-br": "Depois de perder todos os seus suprimentos e provisões e também ter sua irmã devorada por um dragão durante uma expedição na masmorra, Laios e seu grupo estão determinados a salvá-la antes que ela seja completamente digerida pelo dragão.\nMas estando completamente falidos e tendo que recorrer a comer monstros como alimento, eles encontram um anão que os apresentará ao mundo de Dungeon Meshi – uma deliciosa culinária feita com ingredientes como a carne de morcegos gigantes, cogumelos andarilhos e até mesmo mandrágoras."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "86082",
+          "ap": "delicious-in-dungeon",
+          "bw": "series/22301/list",
+          "kt": "27539",
+          "mu": "8rowciu",
+          "mal": "85781",
+          "raw": "https://comic-walker.com/contents/detail/KDCW_EB06000001010000_68/"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "14",
+        "lastChapter": "97",
+        "publicationDemographic": "seinen",
+        "status": "completed",
+        "year": 2014,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Monsters"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Survival"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Magic"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "dd1f77c5-dea9-4e2b-97ae-224af09caf99",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Monster Girls"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Cooking"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Supernatural"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-10-09T01:28:15+00:00",
+        "updatedAt": "2025-11-27T13:42:58+00:00",
+        "version": 74,
+        "availableTranslatedLanguages": [
+          "ru",
+          "es",
+          "uk",
+          "vi",
+          "en",
+          "es-la",
+          "pt-br",
+          "id",
+          "ar"
+        ],
+        "latestUploadedChapter": "cdc5118e-3b64-4d5c-9981-dd4252c5dfc2"
+      },
+      "relationships": [
+        {
+          "id": "22470bea-8c6c-40ff-943c-d1da388a8eac",
+          "type": "author",
+          "attributes": {
+            "name": "Kui Ryouko",
+            "imageUrl": null,
+            "biography": {
+              "en": "**Name In Native Language:** 九井諒子"
+            },
+            "twitter": null,
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2025-07-05T07:38:03+00:00",
+            "version": 2
+          }
+        },
+        {
+          "id": "22470bea-8c6c-40ff-943c-d1da388a8eac",
+          "type": "artist"
+        },
+        {
+          "id": "4dda8014-e270-412f-aae2-46645dd5cf60",
+          "type": "cover_art",
+          "attributes": {
+            "description": "Format: Tankoubon\r\nImprint: Harta Comics\r\nPublisher: Kadokawa\r\nYear: 2015",
+            "volume": "14",
+            "fileName": "d3430039-ea47-48c3-9b8b-cf80200d7f0b.jpg",
+            "locale": "ja",
+            "createdAt": "2024-09-23T20:02:39+00:00",
+            "updatedAt": "2024-09-23T20:02:39+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "2b5827e8-0413-4867-95f9-132e66ae094e",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "5bad3fe1-c741-4766-805b-555949510aa6",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "92164e01-0c3f-43b2-bcc2-8ede61c229c1",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "9471a5d6-31c0-480b-9bd2-3d479ff7706c",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "b982aa9c-17eb-415d-bcf8-a92f7daf0ae4",
+          "type": "manga",
+          "related": "spin_off"
+        },
+        {
+          "id": "c7df830c-2246-4134-933f-0a32fdc34b00",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "cdaa5379-2280-4675-a7da-b893b753085a",
+          "type": "manga",
+          "related": "doujinshi"
+        }
+      ]
+    },
+    {
+      "id": "58be6aa6-06cb-4ca5-bd20-f1392ce451fb",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "ja-ro": "Yotsuba to!"
+        },
+        "altTitles": [
+          {
+            "vi": "Yotsuba&! – Cỏ 4 lá"
+          },
+          {
+            "es": "Yotsuba Y!"
+          },
+          {
+            "ja": "よつばと！"
+          },
+          {
+            "zh": "四叶妹妹!"
+          },
+          {
+            "ko": "요츠바랑!"
+          },
+          {
+            "ru": "Ёцуба!"
+          },
+          {
+            "uk": "Йоцуба і!"
+          },
+          {
+            "en": "Yotsuba&!"
+          },
+          {
+            "en": "Yotsuba and!"
+          }
+        ],
+        "description": {
+          "en": "Yotsuba is a strange little girl with a big personality! Even in the most trivial, unremarkable encounters, Yotsuba's curiosity and enthusiasm quickly turns the everyday into the extraordinary!\n\n---\n- **Won the Excellence Award for Manga at the Japan Media Arts Festival in 2006**\n\n\n---\nOfficial Release:\n- Indonesian release by Elex Media (2007)",
+          "ru": "Повседневная жизнь Ёцубы Койвай полна приключений. Она активная, любопытная и немного эксцентричная девочка. Настолько эксцентричная, что её отец прозвал её странной и несведущей в вещах, которые должны знать даже пятилетки. Из-за этого самое простое событие для неё становится настоящим приключением. Проходят дни, Ёцуба заводит новых друзей и показывает всем на личном примере, что каждый день может быть в радость.\n\n---\n\n(Source: [shikimori](https://shikimori.one/mangas/104-yotsuba-to))",
+          "uk": "Йоцуба — це маленьке дивне дівча з великою особистістю! Її ім’я з японської означає \"чотирилиста конюшина\", цьому також відповідає форма та колір її волосся. Але чи значить це, що вона приносить тільки удачу? Хтозна... зрозуміло одне: з цією дівчинкою ніколи не знудишся, бо вона швидко перетворює щось буденне на екстраординарне!",
+          "pt-br": "Novas pessoas chegam nas grandes cidades todos os dias. Porém, dessa vez é uma pessoa diferente das normais: Yotsuba e seu pai. Eles se mudam para a capital e logo conheceremos a garotinha de cabelos verdes, seu pai e toda a vizinhança. Mas será que eles realmente são uma família comum? Acompanhe Yotsubato e descubra que a normalidade depende do ponto de vista de quem olha."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "30104",
+          "ap": "yotsuba",
+          "kt": "272",
+          "mu": "auem2hr",
+          "mal": "104",
+          "raw": "https://dengekidaioh.jp/product/yotsubato/"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "shounen",
+        "status": "ongoing",
+        "year": 2003,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-01-24T15:21:37+00:00",
+        "updatedAt": "2025-11-21T20:30:43+00:00",
+        "version": 38,
+        "availableTranslatedLanguages": [
+          "vi",
+          "pt-br",
+          "ru",
+          "en",
+          "zh-hk",
+          "tr",
+          "es-la",
+          "id",
+          "uk",
+          "es"
+        ],
+        "latestUploadedChapter": "19cc115d-ce22-4c80-ab8c-25762265b240"
+      },
+      "relationships": [
+        {
+          "id": "e3d5ec0e-9ecb-4ac6-86b2-59ddad281b5b",
+          "type": "author",
+          "attributes": {
+            "name": "Azuma Kiyohiko",
+            "imageUrl": null,
+            "biography": {
+              "en": "東清彦\n--\nあずまきよひこ\nAzuma Kiyohiko\n==\nHe is best known for his 4 koma comedy manga [Azumanga Daioh](https://mangadex.org/title/d8adcc66-b2a3-4c0c-a8b4-c6f2f0538b90/azumanga-daioh) and slice of life manga [Yotsuba&!](https://mangadex.org/title/58be6aa6-06cb-4ca5-bd20-f1392ce451fb/yotsuba) Both the manga and anime of Azumanga Daioh have been praised for their humor driven by eccentric characters, with Azuma acclaimed as a \"master of the four-panel form\" for both his art style and comic timing. Yotsuba&! has received widespread acclaim from critics and audiences due to Azuma's artistic talent, writing, and the creation and development of the titular character, with the manga earning multiple awards and nominations."
+            },
+            "twitter": "https://twitter.com/azumakiyohiko",
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": "http://www.yotuba.com/",
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2025-03-11T12:50:57+00:00",
+            "version": 5
+          }
+        },
+        {
+          "id": "e3d5ec0e-9ecb-4ac6-86b2-59ddad281b5b",
+          "type": "artist"
+        },
+        {
+          "id": "28c01b3f-0f5c-4a15-a0da-4d39431ec86e",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "16",
+            "fileName": "ff8d4f70-1797-4036-8241-c63b2237254e.jpg",
+            "locale": "ja",
+            "createdAt": "2025-01-29T10:45:57+00:00",
+            "updatedAt": "2025-01-29T10:45:57+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "313682fc-c512-4a1c-8c66-33ad0121c505",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "4b3d263d-92a7-4be2-991f-3adf24053713",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "53838e07-076f-43f3-8b82-6cc861060b00",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "667d78cf-462a-4586-9532-e79154278c9a",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "b5b7169d-464b-4dd1-b7b0-a271fa54a1be",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "d164aa71-c70b-4174-98f0-18d86cfceac3",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "d2f73eb0-6bbb-4000-8234-8e64bf79c417",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "d4496b92-b1bc-411f-ad36-b74a359887bc",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "d8adcc66-b2a3-4c0c-a8b4-c6f2f0538b90",
+          "type": "manga",
+          "related": "shared_universe"
+        },
+        {
+          "id": "df5821b1-4000-4d5f-a444-f1c1f6e7abf6",
+          "type": "manga",
+          "related": "preserialization"
+        },
+        {
+          "id": "eb3e0972-0513-4dd6-a4e3-50f989a8e689",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "eecb13f7-a424-4290-a7d6-a52fae97938f",
+          "type": "manga",
+          "related": "doujinshi"
+        }
+      ]
+    },
+    {
+      "id": "2c4b353f-d968-461b-be49-4f2599189a79",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "ja-ro": "Pokemon - Ouja no Saiten"
+        },
+        "altTitles": [
+          {
+            "en": "Pokemon: Festival of Kings"
+          },
+          {
+            "ja": "王者の祭典"
+          },
+          {
+            "en": "Pokemon: Festival of Champions"
+          }
+        ],
+        "description": {
+          "en": "The Indigo League: the ultimate challenge for Pokémon trainers. Structured like a massive tournament, anyone eager to show off their Pokémon can participate, from rookies to gym leaders to even the Elite Four themselves.  \n  \nThis is the story of Red, Blue, and Green, three friends who decide to partake in the tournament."
+        },
+        "isLocked": true,
+        "links": {
+          "mu": "rlqm68b"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": null,
+        "status": "ongoing",
+        "year": 2011,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Doujinshi"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Tragedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-09-13T07:33:16+00:00",
+        "updatedAt": "2025-09-06T18:41:58+00:00",
+        "version": 13,
+        "availableTranslatedLanguages": [
+          "vi",
+          "fr",
+          "en",
+          "pt-br",
+          "uk",
+          "id",
+          "es"
+        ],
+        "latestUploadedChapter": "a7b9a6c4-a0de-4e29-a1f1-6ad35436e2dc"
+      },
+      "relationships": [
+        {
+          "id": "87436933-ca0d-4682-b180-a476ea460b01",
+          "type": "author",
+          "attributes": {
+            "name": "Seijun Tombo",
+            "imageUrl": null,
+            "biography": {},
+            "twitter": "https://twitter.com/seijyun09",
+            "pixiv": "https://www.pixiv.net/en/users/411252",
+            "melonBook": null,
+            "fanBox": null,
+            "booth": "https://seijun.booth.pm/",
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2022-02-20T20:55:52+00:00",
+            "version": 2
+          }
+        },
+        {
+          "id": "87436933-ca0d-4682-b180-a476ea460b01",
+          "type": "artist"
+        },
+        {
+          "id": "d29859c4-48ab-4f47-9964-7e922be496f9",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": null,
+            "fileName": "531cd3f0-6ace-4812-a74a-25dcc2271529.jpg",
+            "locale": "ja",
+            "createdAt": "2021-05-24T16:44:47+00:00",
+            "updatedAt": "2021-05-24T16:44:47+00:00",
+            "version": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "3fba42cf-2ad6-4c30-a7ab-46cb8149208a",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Bungou Stray Dogs"
+        },
+        "altTitles": [
+          {
+            "pl": "Bungou Stray Dogs - Bezpańscy Literaci"
+          },
+          {
+            "ms": "Ejen Luar Biasa"
+          },
+          {
+            "ja": "文豪ストレイドッグス"
+          },
+          {
+            "vi": "Văn Hào Lưu Lạc"
+          },
+          {
+            "uk": "Бродячі пси літератури"
+          },
+          {
+            "ru": "Великий из бродячих псов"
+          },
+          {
+            "uk": "Літературні Генії Бродячі Пси"
+          },
+          {
+            "fa": "سگ های ولگرد بانگو"
+          },
+          {
+            "ar": "كلاب الأدب الشاردة"
+          },
+          {
+            "ko": "문호 스트레이 독스"
+          },
+          {
+            "en": "Stray Dogs of the Literary Masters"
+          },
+          {
+            "zh": "文豪野犬"
+          },
+          {
+            "tr": "Edebiyat Ustalarının Sokak Köpekleri"
+          },
+          {
+            "fr": "Bungo Stray Dogs"
+          },
+          {
+            "ru": "Проза бродячих псов"
+          },
+          {
+            "pt-br": "Cães sem dono"
+          }
+        ],
+        "description": {
+          "en": "Nakajima Atsushi was kicked out of his orphanage, and now he has no place to go and no food. While he is standing by a river, on the brink of starvation, he rescues a man whimsically attempting suicide. That man is Dazai Osamu, and he and his partner Kunikida are members of a very special detective agency. They have supernatural powers, and deal with cases that are too dangerous for the police or the military. They're tracking down a tiger that has appeared in the area recently, around the time Atsushi came to the area. The tiger seems to have a connection to Atsushi, and by the time the case is solved, it is clear that Atsushi's future will involve much more of Dazai and the rest of the detectives!",
+          "ru": "Нашего героя выгнали из детского дома. Стоя у реки, он думал о голодной смерти, но чудом умудрился спасти самоубийцу. Этот человек, оказалось, состоит в детективном агентстве. В агентстве со сверхъестественными способностями. И только им подвластно решение проблем, за которые боятся браться даже военные. Теперь жизнь нашего героя изменится кардинально. А как именно читайте далее.",
+          "vi": "Nakajima Atsushi bị tống cổ ra khỏi trại trẻ mồ coi, đang trên bờ vực của cái chết khi thì quyết định đi cướp để tự cứu sự sống của mình nhưng cậu đã vướng vào rắc rối khi cứu đc thánh cuồng tự tử -Dazai Osamu, để rồi biết anh ta và cộng sự của anh ta là Kunikida là thành viên của một tổ chức \"đặc nhiệm thám tử\". Họ là những người sở hữu năng lực vượt ngoài tầm của nhân loại. Yêu cầu mà họ đang thực hiện là tìm kiếm một con hổ. Và theo cậu tiết lộ thì hình như nó đang cố truy lùng mạng sống của cậu từ đó cậu được hai nhà \"đặc nhiệm thám tử\" hối lộ để trở thành một mồi câu để dụ con hổ xuất hiện..."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "85307",
+          "ap": "bungo-stray-dogs",
+          "bw": "series/4327/list",
+          "kt": "16084",
+          "mu": "g0cyiw1",
+          "mal": "56529",
+          "raw": "https://comic.pixiv.net/works/2195"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "seinen",
+        "status": "ongoing",
+        "year": 2012,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Crime"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Mafia"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Military"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "d7d1730f-6eb0-4ba6-9437-602cac38664c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Vampires"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Police"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Supernatural"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ee968100-4191-4968-93d3-f82d72be7e46",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Mystery"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-08-30T00:01:58+00:00",
+        "updatedAt": "2025-11-21T21:09:11+00:00",
+        "version": 31,
+        "availableTranslatedLanguages": [
+          "tr",
+          "pt-br",
+          "en",
+          "id",
+          "fr",
+          "pl",
+          "es-la",
+          "ar",
+          "it",
+          "vi",
+          "de",
+          "ru",
+          "et",
+          "uk"
+        ],
+        "latestUploadedChapter": "b0bab7ab-20b7-468f-bef2-885e15a48702"
+      },
+      "relationships": [
+        {
+          "id": "3380a3aa-0e08-4ff8-8f0b-c3e63b371837",
+          "type": "author",
+          "attributes": {
+            "name": "Asagiri Kafka",
+            "imageUrl": null,
+            "biography": {
+              "en": "**Alt names**:\nAsagiri Kafuka\n朝霧カフカ"
+            },
+            "twitter": "https://twitter.com/kafkaasagiri",
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2024-05-08T05:34:36+00:00",
+            "version": 2
+          }
+        },
+        {
+          "id": "c5fa2d71-3098-441e-afbd-57af62794b55",
+          "type": "artist"
+        },
+        {
+          "id": "091819db-1dc9-44cd-9d54-bdcd11d2e9d5",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "27",
+            "fileName": "3dc662b2-def7-42d0-98fe-3e92a7224ca3.jpg",
+            "locale": "ja",
+            "createdAt": "2025-08-29T12:18:00+00:00",
+            "updatedAt": "2025-08-29T12:18:00+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "0fc2cafc-0c2f-419c-a891-5c0745080800",
+          "type": "manga",
+          "related": "side_story"
+        },
+        {
+          "id": "438c361c-60aa-4725-83c5-356bc79d4db5",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "56261e00-c2e5-48b5-b003-f28a58eb80f7",
+          "type": "manga",
+          "related": "alternate_story"
+        },
+        {
+          "id": "56261e00-c2e5-48b5-b003-f28a58eb80f7",
+          "type": "manga",
+          "related": "side_story"
+        },
+        {
+          "id": "56261e00-c2e5-48b5-b003-f28a58eb80f7",
+          "type": "manga",
+          "related": "spin_off"
+        },
+        {
+          "id": "569963c5-6b0b-4f92-b561-e1304b78b0dc",
+          "type": "manga",
+          "related": "side_story"
+        },
+        {
+          "id": "569963c5-6b0b-4f92-b561-e1304b78b0dc",
+          "type": "manga",
+          "related": "spin_off"
+        },
+        {
+          "id": "5b67448e-ddf3-49d2-9701-c1edd8f0e7ee",
+          "type": "manga",
+          "related": "side_story"
+        },
+        {
+          "id": "930cf98e-021a-40ce-af71-dcb8d81768ab",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "9c124df0-828c-4f2c-9374-fcfa187d689c",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "9c124df0-828c-4f2c-9374-fcfa187d689c",
+          "type": "manga",
+          "related": "spin_off"
+        },
+        {
+          "id": "aa7f61df-54ec-438e-b194-31b4e18010e0",
+          "type": "manga",
+          "related": "side_story"
+        },
+        {
+          "id": "b397efc4-e5e0-40e3-99b9-65b2838650ed",
+          "type": "manga",
+          "related": "side_story"
+        },
+        {
+          "id": "b397efc4-e5e0-40e3-99b9-65b2838650ed",
+          "type": "manga",
+          "related": "spin_off"
+        },
+        {
+          "id": "d8dcbff1-a8b6-4fcf-88de-3977aa5cef33",
+          "type": "manga",
+          "related": "side_story"
+        },
+        {
+          "id": "e9357f9d-ec92-42cf-8265-94143c740256",
+          "type": "manga",
+          "related": "colored"
+        },
+        {
+          "id": "e9357f9d-ec92-42cf-8265-94143c740256",
+          "type": "manga",
+          "related": "side_story"
+        }
+      ]
+    },
+    {
+      "id": "6ecc62e4-25ad-4102-b0d8-580a8023d2fb",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "ja-ro": "Kimi to Tsuzuru Utakata"
+        },
+        "altTitles": [
+          {
+            "ja": "君と綴るうたかた"
+          },
+          {
+            "en": "The Summer You Were There"
+          },
+          {
+            "en": "Ephemeral Spelling With You"
+          },
+          {
+            "zh": "共谱泡沫恋曲"
+          },
+          {
+            "zh-hk": "共譜泡沫戀曲"
+          },
+          {
+            "zh-ro": "Gòng pǔ pàomò liàn qū"
+          },
+          {
+            "pl": "Lato pisane Tobą"
+          },
+          {
+            "fr": "Notre été éphémère (Meian)"
+          },
+          {
+            "ja-ro": "Kimitsuzu"
+          },
+          {
+            "ja": "きみつづ"
+          },
+          {
+            "th": "ร้อยเรียงรักไปกับเธอ"
+          },
+          {
+            "en": "Transient Spelling With You"
+          },
+          {
+            "tl": "Panandaliang pagsusulat kasama ka"
+          },
+          {
+            "es": "Un amor de tinta y espuma"
+          }
+        ],
+        "description": {
+          "en": "Shizuku Hoshikawa, a high school girl who lives avoiding contact with people, writes a novel which is accidentally read by her classmate Kaori Asaka.  \r\nShe loves it but finds out Hoshikawa wasn't planning to write anymore due to lack of ideas, to which she ends up saying:  \r\n\"Let's start going out, you and me… You can write a story about our own love.\"",
+          "tl": "Ang mahiyain na si Shizuku Hoshikawa ay patungo sa pagtatapon ng kanyang una at huling nobela. Ngunit bago niya ito magawa, nabangga siya ng karismatikong si Kaori Asaka at nauwi ang nobela sa bahay nito. Ang pangyayaring ito ay labis na nagdulot ng pagkabalisa kay Shizuku, dahil ayaw niyang mabasa ng kahit sino ang malungkot na kwentong isinulat niya para sa kanyang sariling kasiyahan.",
+          "vi": "Shizuku Hoshikawa là một cô nữ sinh trung học, luôn tránh tiếp xúc với mọi người. Cô đã viết một cuốn tiểu thuyết nhằm thỏa mãn niềm đam mê của bản thân, nhưng cô lại luôn muốn che giấu điều đó. Và tình cờ, bạn cùng lớp của cô - Kaori Asaka - đã đọc được chúng. Điều đó khiến Shizuku Hoshikawa vô cùng lo lắng. Tuy nhiên, Kaori Asaka lại đề nghị rằng : \"Hãy bắt đầu một mối quan hệ yêu đương của chúng ta cho tác phẩm tiếp theo....\"",
+          "zh-hk": "個性內向的少女星川雫，偷偷地在寫百合小說。原本她打算寫完這篇小說之後，就要結束自己的性命。但就在她把小說的草稿，拿到學校的垃圾場去丟掉時，遇到了同班的朝香夏織。夏織是一位跟她完全不同的少女，而那份小說的草稿，卻被夏織撿走了。原本她以為夏織看完自己寫的小說之後會嘲笑她，沒想到夏織卻說非常的感動，還說想看她寫戀愛小說。小雫原本是以沒有想寫的題材為藉口來推托掉，沒想到夏織卻提議兩個人交往，並且透過這個體驗，來寫下屬於她們的戀愛小說！"
+        },
+        "isLocked": false,
+        "links": {
+          "al": "117620",
+          "ap": "the-summer-you-were-there",
+          "kt": "60500",
+          "mu": "0n708d7",
+          "mal": "128365",
+          "raw": "https://comic.pixiv.net/works/7077"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "6",
+        "lastChapter": "32",
+        "publicationDemographic": null,
+        "status": "completed",
+        "year": 2020,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Psychological"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Romance"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Girls' Love"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "c8cbe35b-1b2b-4a3f-9c37-db84c4514856",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Medical"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "School Life"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Tragedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2020-07-22T18:47:29+00:00",
+        "updatedAt": "2025-11-24T16:39:02+00:00",
+        "version": 85,
+        "availableTranslatedLanguages": [
+          "en",
+          "pl",
+          "id",
+          "es-la",
+          "pt-br",
+          "vi",
+          "hu"
+        ],
+        "latestUploadedChapter": "1df6ebf5-c4a5-4d9e-823f-9c0876f4cdd6"
+      },
+      "relationships": [
+        {
+          "id": "dda1bf5a-2d91-4cba-bfe8-6bae603a5091",
+          "type": "author",
+          "attributes": {
+            "name": "Yuama",
+            "imageUrl": null,
+            "biography": {
+              "en": "**Name In Native Language:** ゆあま\n\n**Additional Sites:**\n- [Xfolio](https://xfolio.jp/portfolio/yuam)"
+            },
+            "twitter": "https://twitter.com/maymaymay7523",
+            "pixiv": "https://www.pixiv.net/users/5701254",
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2025-07-24T16:08:08+00:00",
+            "version": 3
+          }
+        },
+        {
+          "id": "dda1bf5a-2d91-4cba-bfe8-6bae603a5091",
+          "type": "artist"
+        },
+        {
+          "id": "390f1a5c-0808-4f2c-b763-3e5b7f73dc53",
+          "type": "cover_art",
+          "attributes": {
+            "description": "Volume 6 Cover from BookWalker",
+            "volume": "6",
+            "fileName": "571d1d00-9ab1-44ce-b6ab-aa72584ee2f9.jpg",
+            "locale": "ja",
+            "createdAt": "2024-06-09T00:23:46+00:00",
+            "updatedAt": "2024-06-09T00:23:46+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "645ed5e1-9a81-4771-9088-8e8265c4bd42",
+          "type": "manga",
+          "related": "side_story"
+        }
+      ]
+    },
+    {
+      "id": "9d3d3403-1a87-4737-9803-bc3d99db1424",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "ja-ro": "Kininatteru Hito ga Otoko ja Nakatta"
+        },
+        "altTitles": [
+          {
+            "ja": "気になってる人が男じゃなかった"
+          },
+          {
+            "ja-ro": "Ki ni Natteru Hito ga Otoko Janakatta"
+          },
+          {
+            "fr": "Le garçon qui l'intéressait n'en était en fait pas un"
+          },
+          {
+            "ru": "Парень, которым она увлечена, на самом деле не парень"
+          },
+          {
+            "az": "Onun maraqlandığı oğlan əslində heç oğlan deyilmiş"
+          },
+          {
+            "tr": "Hoşlandığı Çocuk Meğer Erkek Değilmiş"
+          },
+          {
+            "zh": "我在意的人不是异性"
+          },
+          {
+            "zh-hk": "我在意的人不是異性"
+          },
+          {
+            "zh-ro": "Wǒ zàiyì de rén bùshì yìxìng"
+          },
+          {
+            "id": "Pria Yang Dia Suka Ternyata Sama Sekali Bukan Pria"
+          },
+          {
+            "fr": "She wasn't a guy (Mangetsu)"
+          },
+          {
+            "th": "คนที่เธอปิ๊งความจริงไม่ใช่ผู้ชาย"
+          },
+          {
+            "es-la": "El chico que le gustaba no era un chico"
+          },
+          {
+            "vi": "Người Mà Tôi Để Ý Đến Không Phải Là Đàn Ông"
+          },
+          {
+            "uk": "Хлопець, який їй сподобався, — не хлопець"
+          },
+          {
+            "ca": "El noi en què estava interessada no era en cap cas un noi"
+          },
+          {
+            "en": "The Guy She Was Interested in Wasn't a Guy at All"
+          },
+          {
+            "es": "El Chico Que Me Gusta No Es Un Chico"
+          },
+          {
+            "pt-br": "O cara de que estou a fim não era um cara?!"
+          },
+          {
+            "en": "The Green Yuri"
+          }
+        ],
+        "description": {
+          "az": "Bu twitter qısa hekayəsi məktəbdən kənarda oğlan kimi səhv saldığı orta məktəbli qızla onun sinif yoldaşı arasındakı sevgi hekayəsini təsvir edir. Nəhayət,qızlar rok musiqisindəki ortaq zövqləri üzərində birləşirlər.",
+          "ca": "L'Aya, una estudiant que va a la moda, perd el cap pel treballador d'una botiga de discos.\nTé un aire de misteri, un gran estil i un gust musical impecable.\nTot i això, ella no sap que aquest treballador és de fet una companya de classe, la Mitsuki!",
+          "en": "Fashionable and upbeat high schooler Aya falls head over heels for an employee at a local CD shop. He’s got an air of mystery about him, always dressed well, and has impeccable taste in music. Little does she know — this supposedly male employee is actually her female classmate Mitsuki!\n\nMitsuki generally keeps to herself, but since her seat is right next to Aya’s, she can't help but be extremely aware of the other’s crush. Revealing the truth is out of the question — but perhaps getting closer to Aya wouldn’t be so bad...\n\n***Overwhelming winner in the Web category of the 2023 Tsugimanga Awards (by Kadokawa).***",
+          "es": "Aya, una estudiante de secundaria alegre y de moda, se enamora perdidamente de un empleado de una tienda de CD local.\nTiene un aire de misterio, un gran estilo y un gusto musical impecable.\nLo que ella no sabe es que...",
+          "fr": "Une histoire très appréciée sur Twitter sur fond de musique de Rock.\n\nAya, une populaire lycéenne tombe sous le charme du discret vendeur du magasin de musique qu'elle fréquente.\n\nRetour en classe, elle raconte toute l'histoire à ses amies et comment elle a un faible pour ce garçon aux airs de prince charmant.\n\nCe qu'elle ne sait pas c'est que ce mystérieux vendeur n'est en fait que sa voisine de bureau, Mitsuki, qu'elle a confondu pour un jeune homme.\n\nComment leur relation va-t-elle évoluer ? Arriveront-elles à expliquer ce quiproquo ?",
+          "id": "Series Pendek Twitter yang menggambarkan cerita tentang Gyaru dan Teman Sekelasnya.\r\nGyaru yang suka musik rock dan sering mendatangi toko kaset jatuh cinta ke pekerja paruh waktu yang bekerja disitu, tapi sedikit dia tahu ternyata pekerjanya itu perempuan dan teman sekelasnya.",
+          "tr": "Modayı seven ve enerjiyle dolu lise öğrencisi Aya, bir CD mağazasındaki çalışana sırılsıklam âşık oluyor. Âşık olduğu kişinin etrafında bir gizem havası var, her zaman şık kıyafetler giyiyor ve mükemmel bir müzik zevki var. Ancak bilmediği bir şey var: Bu sözde erkek çalışan aslında onun sınıfındaki kızlardan biri olan Mitsuki!\n\nMitsuki genelde kendi hâlinde takılıyor ancak oturduğu sıra Aya'nın hemen yanında olduğu için onun hoşlandığı kişiyi sürekli duymadan edemiyor. Gerçeği ortaya çıkarmak söz konusu bile değil ama belki de Aya ile yakınlaşmak çok da kötü bir fikir olmayabilir...",
+          "uk": "Популярна серія коротких манґ у твіттері, в якій розповідається про історію кохання між ґяру та її однокласницею, яку вона помилково сприймає як хлопця поза школою, через їхню взаємну любов до рок-музики.",
+          "pt-br": "Uma Gyaru/Gal que não se parece tanto com suas amigas (Gyarus também) frequenta uma loja de CD's e se apaixona pelo funcionário(?) de meio período do local.\r\nMas mal sabe ela que o funcionário(?) na realidade é uma menina e é uma das suas colegas de classe."
+        },
+        "isLocked": true,
+        "links": {
+          "al": "149544",
+          "ap": "the-guy-she-was-interested-in-wasnt-a-guy-at-all",
+          "kt": "63232",
+          "mu": "d86l207",
+          "mal": "155861",
+          "raw": "https://twitter.com/agu_knzm/status/1512998788025110532",
+          "engtl": "https://yenpress.com/series/the-guy-she-was-interested-in-wasn-t-a-guy-at-all"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": null,
+        "lastChapter": null,
+        "publicationDemographic": null,
+        "status": "ongoing",
+        "year": 2022,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Romance"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "a3c67850-4684-404e-9b7f-c69850ee5da6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Girls' Love"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "School Life"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Web Comic"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Music"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "fad12b5e-68ba-460e-b933-9ae8318f5b65",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Gyaru"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2022-04-10T13:05:17+00:00",
+        "updatedAt": "2025-11-30T18:20:48+00:00",
+        "version": 83,
+        "availableTranslatedLanguages": [
+          "pt-br",
+          "uk",
+          "en",
+          "tr",
+          "id",
+          "es",
+          "fr",
+          "es-la",
+          "ru",
+          "cs",
+          "ar",
+          "ca",
+          "pl",
+          "mn"
+        ],
+        "latestUploadedChapter": "cf60de16-dde0-43c6-912e-12b9c58a5318"
+      },
+      "relationships": [
+        {
+          "id": "12f9c76e-036f-4622-95aa-88aa54b3433a",
+          "type": "author",
+          "attributes": {
+            "name": "Arai Sumiko",
+            "imageUrl": null,
+            "biography": {
+              "en": "**Name In Native Language:** 新井すみこ\n\n**Also Known As:** Agu (あぐ)"
+            },
+            "twitter": "https://twitter.com/agu_knzm",
+            "pixiv": "https://www.pixiv.net/users/44285294",
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": "https://www.instagram.com/agu_knzm/",
+            "createdAt": "2022-02-17T16:06:40+00:00",
+            "updatedAt": "2024-08-23T12:24:17+00:00",
+            "version": 9
+          }
+        },
+        {
+          "id": "12f9c76e-036f-4622-95aa-88aa54b3433a",
+          "type": "artist"
+        },
+        {
+          "id": "df6bff4d-449f-476b-9939-6d1fa57314e8",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "4",
+            "fileName": "91935268-394e-4b25-ad34-355c5e2b9e75.jpg",
+            "locale": "ja",
+            "createdAt": "2025-11-08T14:46:17+00:00",
+            "updatedAt": "2025-11-08T14:46:17+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "6db15b12-bac4-4a80-87c1-713ff4447c6e",
+          "type": "creator"
+        }
+      ]
+    },
+    {
+      "id": "b30dfee3-9d1d-4e8d-bfbe-8fcabc3c96f6",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "JoJo's Bizarre Adventure Part 7 - Steel Ball Run"
+        },
+        "altTitles": [
+          {
+            "ja": "ジョジョの奇妙な冒険 Part7『スティール・ボール・ラン』"
+          },
+          {
+            "ja-ro": "JoJo no Kimyou na Bouken"
+          },
+          {
+            "ja-ro": "JoJo no Kimyou na Bouken: Steel Ball Run"
+          },
+          {
+            "en": "JoJo: SBR"
+          },
+          {
+            "zh": "JoJo的奇妙冒险 第七部 飙马野郎"
+          },
+          {
+            "es": "La Extraña Aventura de JoJo Parte 7 - Steel Ball Run"
+          },
+          {
+            "es": "La extraña aventura de JoJo Parte 7: La carrera de las bolas de acero"
+          },
+          {
+            "ru": "Невероятное приключение ДжоДжо — Часть 7: Гонка «Стальной шар»"
+          },
+          {
+            "ko": "조조의 기묘한 모험 7 부 : 스틸 볼 달리기"
+          },
+          {
+            "ro": "Aventurile Bizare ale lui JoJo Partea 7: Cursa \"Mingea de Oțel\""
+          },
+          {
+            "kk": "ДжоДжоның Шытырман Хикаясы: Болат Доп Бәйгесі"
+          },
+          {
+            "uk": "Химерні Пригоди Джоджо Частина 7 —Перегони \"Сталева Куля\""
+          },
+          {
+            "pt-br": "A Bizarra Aventura de JoJo, Parte 7: A Corrida da Esfera de Aço"
+          }
+        ],
+        "description": {
+          "en": "In the American Old West, the world's greatest race is about to begin. Thousands line up in San Diego to travel over six thousand kilometers for a chance to win the grand prize of fifty million dollars. With the era of the horse reaching its end, contestants are allowed to use any kind of vehicle they wish. Competitors will have to endure grueling conditions, traveling up to a hundred kilometers a day through uncharted wastelands. The Steel Ball Run is truly a one-of-a-kind event.  \n  \nThe youthful Johnny Joestar, a crippled former horse racer, has come to San Diego to watch the start of the race. There he encounters Gyro Zeppeli, a racer with two steel balls at his waist instead of a gun. Johnny witnesses Gyro using one of his steel balls to unleash a fantastical power, compelling a man to fire his gun at himself during a duel. In the midst of the action, Johnny happens to touch the steel ball and feels a power surging through his legs, allowing him to stand up for the first time in two years. Vowing to find the secret of the steel balls, Johnny decides to compete in the race, and so begins his bizarre adventure across America on the Steel Ball Run.",
+          "hu": "Amerikában a régi vadnyugaton, a világ legnagyobb szabású versenye hamarosan kezdődik. Ezrek állnak rajzvonalhoz San Diegoban, hogy utazzanak több mint hat ezer kilómétert annak reményében, hogy megnyerhetik az ötven millió dolláros fődíjat. A lovak kora elérkezett a végéhez, így a versenyzők szabadon használhattak bármiféle járművet. A versenyzőknek el kell majd tűrniük a fárasztő körülményeket, naponta több mint, száz kilómétert megtéve felfedezetlen vidékeken. A Steel Ball Run egy igazán egyedülálló esemény.\n\nA fiatalos Johnny Joestar, egy tolószékes korábbi lovas versenyző, eljött San Diegoba, hogy megnézze a verseny rajtját. Itt találkozik Gyro Zeppelivel, egy versenyzővel két acél golyóval a derekán fegyver helyett. Johnny szemtanúja lesz annak, hogy Gyro használja az egyik acélgolyóját, szabadjára engedve annak erejét, hogy arra kényszerítsen egy férfit egy párbaj közben, hogy lőjje le magát. Az ütközet közepette, Johnny megérinti az\nacélgolyót és érezte, hogy egy erő végigáramlik a lábán, rábírva őt arra, hogy felálljon először két év után. Megfogadja, hogy rájön, hogy mi a titka az acélgolyóknak, Johnny eldönti, hogy indul a versenyen, így kezdődik el az ő bizarr kalandja Amerikán keresztül a Steel Ball Runban.",
+          "uk": "Вересень 1980. Дикий Захід. Америка. Жокеї зі всього світу чекають гонку \"Сталева Куля\", яка ось-ось розпочнеться. Тисячі людей вишиковуються в Сан-Дієго, щоб подолати понад шість тисяч кілометрів заради шансу отримати головний приз — п’ятдесят мільйонів доларів. Юний Джонні Джостар, каліка, колишній жокей та популярний скакун, приїхав до Сан-Дієґо, щоб подивитися на старт перегонів. Там він зустрічає Джайро Цеппелі, гонщика з двома сталевими кулями на талії замість револьвера, звичної зброї для жителів. Джонні бачить, як Джайро використовує одну зі своїх сталевих куль, змушуючи людину вистрілити з рушниці в себе під час дуелі. Поклявшись знайти таємницю сталевих куль, Джонні вирішує взяти участь у гонці. Так і починається його химерна пригода.",
+          "pt-br": "Nos Estados Unidos, na década de 1890, um homem chamado Steven Steel decide promover a \"Steel Ball Run\", uma corrida corta-mato cujo trajeto atravessa todo o país. A corrida é um grande atrativo mundial que chama a atenção tanto de corredores americanos como de corredores estrangeiros. Entre esses corredores estão Johnny Joestar, um ex-jóquei americano, e Gyro Zeppeli, um estrangeiro que carrega consigo misteriosas esferas de aço. Johnny e Gyro se esbarram e dão início à história da sétima parte de JoJo's Bizarre Adventure."
+        },
+        "isLocked": true,
+        "links": {
+          "mu": "22jigcm"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "24",
+        "lastChapter": "95",
+        "publicationDemographic": "seinen",
+        "status": "completed",
+        "year": 2004,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "33771934-028e-4cb3-8744-691e866a923e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Historical"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Martial Arts"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Sexual Violence"
+              },
+              "description": {},
+              "group": "content",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Gore"
+              },
+              "description": {},
+              "group": "content",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Supernatural"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2019-06-30T08:13:07+00:00",
+        "updatedAt": "2025-11-14T13:56:29+00:00",
+        "version": 31,
+        "availableTranslatedLanguages": [
+          "uk",
+          "en",
+          "pt-br",
+          "fr",
+          "es-la",
+          "it",
+          "hu"
+        ],
+        "latestUploadedChapter": "240d0d50-635a-482e-b006-b5a9c186d8cd"
+      },
+      "relationships": [
+        {
+          "id": "03e4afc4-cd94-45a0-bb36-dfd34fa370b3",
+          "type": "author",
+          "attributes": {
+            "name": "Araki Hirohiko",
+            "imageUrl": null,
+            "biography": {
+              "en": "**Hirohiko Araki** (荒木 飛呂彦, born June 7, 1960) is a Japanese manga artist. He is best known for his long-running series JoJo's Bizarre Adventure, which was first published in Weekly Shōnen Jump in 1987 and has sold over 100 million copies as of 2016 in Japan alone.\n\nAraki participated in the Junior Baseball Team in primary school and Kendo Club in middle school. He has a pair of twin younger sisters. Because he was often bullied by his sister, he would hide away to read manga. He liked manga when he was a child, so he wants to be a manga artist. His favorite works are Star of the Giants by Kajiwara Ikki , and Babel II by Yokoyama. Araki had the experience of shaking hands with Tezuka Osamu.\n\nHe likes western pop music, horror movies and Italy very much. We can see a lot of the above elements in his representative work JOJO.His painting style was influenced by Renaissance paintings, especially Michelangelo.\n\nHe gets up at 10 a.m. every day, draws a Name on Sunday, finishes the draft from Monday to Thursday, rests on Friday and Saturday, and doesn't stay up late. This work and rest lasted more than ten years . The work and rest of this law is influenced by the manga artist [Akimoto Osamu](https://mangadex.org/author/1cd79d33-68b3-4879-b67a-834055ef99eb/akimoto-osamu). Although he is over 50, his face does not show his old state. He is even joked by other manga artists and fans as \"the younger he lives\", \"Immortality\", \"using corrugation or stone ghost face\", \"in fact, he is also a Stand, and his ability is that he will not grow old\"."
+            },
+            "twitter": null,
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": "http://www.araki-jojo.com/",
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2022-12-21T16:07:12+00:00",
+            "version": 4
+          }
+        },
+        {
+          "id": "03e4afc4-cd94-45a0-bb36-dfd34fa370b3",
+          "type": "artist"
+        },
+        {
+          "id": "78823e10-b277-4294-af06-2e10d24829e9",
+          "type": "cover_art",
+          "attributes": {
+            "description": "Format: Tankoubon\r\nImprint: Jump Comics\r\nPublisher: Shueisha",
+            "volume": "1",
+            "fileName": "88d9920d-2164-406e-a998-4e7a1789e101.jpg",
+            "locale": "ja",
+            "createdAt": "2024-07-07T23:02:35+00:00",
+            "updatedAt": "2024-07-07T23:02:35+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "1044287a-73df-48d0-b0b2-5327f32dd651",
+          "type": "manga",
+          "related": "colored"
+        },
+        {
+          "id": "848a5814-6f15-4917-9487-ca5ec3da371f",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "ab8cbb82-d0ed-45a7-8ffe-4bfa6d43d79c",
+          "type": "manga",
+          "related": "sequel"
+        },
+        {
+          "id": "c086153a-0162-412a-9914-a7b2633d0cd3",
+          "type": "manga",
+          "related": "sequel"
+        },
+        {
+          "id": "ea57752d-acb7-469e-aa60-43e694ded9a9",
+          "type": "manga",
+          "related": "prequel"
+        }
+      ]
+    },
+    {
+      "id": "a9dd451c-3c45-4d66-a818-4e1b78855838",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "ja-ro": "Uma Musume: Cinderella Gray"
+        },
+        "altTitles": [
+          {
+            "ja": "ウマ娘　シンデレラグレイ"
+          },
+          {
+            "en": "Uma Musume: Cinderella Gray"
+          },
+          {
+            "ru": "Девушки-пони: Серая Золушка"
+          }
+        ],
+        "description": {
+          "en": "Uma Musume: Cinderella Gray is a spin-off title of the Uma Musume project by Cygames. It follows Oguri Cap through her time at Kasamatsu Training Center Academy and on her journey of becoming a legendary horse girl.",
+          "ja": "寂れたカサマツの地に現れた、ひとりの灰被りの少女。後に“怪物”と呼ばれるその少女は、どこを目指して疾るのか――。地方から中央の伝説へ。",
+          "vi": "Uma Musume: Cinderella Gray là một manga spin-off của series Uma Musume. Câu chuyện kể về Oguri Cap và cuộc hành trình trở thành một Mã Nương huyền thoại của cô."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "119247",
+          "ap": "uma-musume-cinderella-grey",
+          "bw": "series/284416/list",
+          "kt": "63156",
+          "mu": "yyirxzd",
+          "amz": "https://www.amazon.co.jp/dp/B08Y8DYKS4",
+          "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2564313",
+          "ebj": "https://ebookjapan.yahoo.co.jp/books/621318",
+          "mal": "133431",
+          "raw": "https://ynjn.jp/app/title?tid=1180"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "seinen",
+        "status": "ongoing",
+        "year": 2020,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Sports"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adaptation"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2020-09-18T06:09:16+00:00",
+        "updatedAt": "2025-12-02T19:12:28+00:00",
+        "version": 56,
+        "availableTranslatedLanguages": [
+          "es-la",
+          "pt-br",
+          "fr",
+          "it",
+          "ru",
+          "en",
+          "id",
+          "pl",
+          "vi",
+          "es",
+          "th"
+        ],
+        "latestUploadedChapter": "4b7dac7f-7788-45a8-8637-b373bbe070f2"
+      },
+      "relationships": [
+        {
+          "id": "2efffa8c-2006-4db1-bc0f-c7ad427d5a4b",
+          "type": "author",
+          "attributes": {
+            "name": "Sugiura Masafumi",
+            "imageUrl": null,
+            "biography": {},
+            "twitter": null,
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2021-04-19T21:59:45+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "ef5f6a52-f32b-48b8-b587-137ec6cdf998",
+          "type": "author",
+          "attributes": {
+            "name": "Itou Junnousuke",
+            "imageUrl": null,
+            "biography": {},
+            "twitter": null,
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2021-04-19T21:59:45+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "8d32f3ca-ed14-4220-a2a7-a29cc64aa391",
+          "type": "artist"
+        },
+        {
+          "id": "1234034e-0494-461b-a457-b94367c530b1",
+          "type": "cover_art",
+          "attributes": {
+            "description": "https://x.com/yj_umaCG/status/1995674282584867253",
+            "volume": "22",
+            "fileName": "5f1e2422-43d8-4266-a040-8b095039ca47.jpg",
+            "locale": "ja",
+            "createdAt": "2025-12-02T19:12:27+00:00",
+            "updatedAt": "2025-12-02T19:12:27+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "3e860011-8609-48a0-ace4-2d95451d50e0",
+          "type": "manga",
+          "related": "side_story"
+        },
+        {
+          "id": "502bdb47-9669-4d37-b701-6dd4a4f00c8d",
+          "type": "manga",
+          "related": "side_story"
+        },
+        {
+          "id": "778b8438-af3a-4534-841c-adf923b55ee1",
+          "type": "manga",
+          "related": "same_franchise"
+        },
+        {
+          "id": "c83006f3-e650-46fd-b6de-a88df6b59fab",
+          "type": "manga",
+          "related": "same_franchise"
+        },
+        {
+          "id": "e4344acc-3425-42ea-8830-6e59db32781b",
+          "type": "manga",
+          "related": "same_franchise"
+        },
+        {
+          "id": "fd149943-ab40-46bc-863e-f9ed9c137189",
+          "type": "manga",
+          "related": "side_story"
+        }
+      ]
+    },
+    {
+      "id": "df9be021-ff37-419e-ba6e-dda3e28eb763",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Kono Oto Tomare!"
+        },
+        "altTitles": [
+          {
+            "fr": "Arrête-toi au son !"
+          },
+          {
+            "tr": "Bu Ses Durdursun!"
+          },
+          {
+            "en": "Stop at This Sound!"
+          },
+          {
+            "ru": "Задержите этот звук!"
+          },
+          {
+            "ja": "この音とまれ！"
+          },
+          {
+            "zh": "一弦定音!"
+          },
+          {
+            "ja-ro": "Kono Oto Tomare! Sounds of Life"
+          },
+          {
+            "ne": "यो ध्वनि रोक!"
+          }
+        ],
+        "description": {
+          "en": "Since the graduation of the senior members of the club, Takezou ends up being the sole member of the \"Koto\" (traditional Japanese string instrument) club. Now that the new school year has begun, Takezou will have to seek out new members for the club, or the club will be terminated. Out of nowhere, a new member barges into the near-abandoned club room, demanding to join the club. How will Takezou be able to keep his club alive and deal with this rascal of a new member?",
+          "pt-br": "Desde a graduação dos membros seniors do clube de Koto (instrumento de cordas tradicional japonês), Takezou é o único membro que restou. Agora que o novo ano escolar começou, Takezou terá que procurar novos membros para o clube ou ele será fechado. Do nada, um cara invade a sala quase abandonada do clube e pede para se juntar a ele. Como Takezou será capaz de manter o seu clube vivo e lidar com esse novo membro problemático?"
+        },
+        "isLocked": false,
+        "links": {
+          "al": "75143",
+          "ap": "kono-oto-tomare",
+          "kt": "319",
+          "mu": "c6b40j8",
+          "mal": "45143",
+          "raw": "http://jumpsq.shueisha.co.jp/rensai/konoototomare/"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "shounen",
+        "status": "ongoing",
+        "year": 2012,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Romance"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Sports"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "School Life"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Delinquents"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f42fbf9e-188a-447b-9fdc-f19dc1e4d685",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Music"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-08-01T10:34:22+00:00",
+        "updatedAt": "2025-11-15T22:55:24+00:00",
+        "version": 41,
+        "availableTranslatedLanguages": [
+          "fr",
+          "vi",
+          "pt-br",
+          "en",
+          "id",
+          "es-la",
+          "ar",
+          "it",
+          "hu"
+        ],
+        "latestUploadedChapter": "cf0befe0-cd7c-4497-9b69-2633fd0e6be0"
+      },
+      "relationships": [
+        {
+          "id": "5888fd80-4d88-4e1a-a002-969568b83d79",
+          "type": "author",
+          "attributes": {
+            "name": "Sakura Amyuu",
+            "imageUrl": null,
+            "biography": {},
+            "twitter": "https://twitter.com/amuse8",
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2023-08-10T07:32:05+00:00",
+            "version": 2
+          }
+        },
+        {
+          "id": "5888fd80-4d88-4e1a-a002-969568b83d79",
+          "type": "artist"
+        },
+        {
+          "id": "d6d30361-09a9-4bc4-8137-2592b9784622",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "33",
+            "fileName": "8b07e521-5bb9-475b-b8ff-79ce8d07c5e8.jpg",
+            "locale": "ja",
+            "createdAt": "2025-10-03T13:27:32+00:00",
+            "updatedAt": "2025-10-03T13:27:32+00:00",
+            "version": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "1693697a-783c-4d3c-a2d3-dc069e137a23",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "No Home"
+        },
+        "altTitles": [
+          {
+            "en": "I Have No Home"
+          },
+          {
+            "ko": "집이 없어"
+          },
+          {
+            "ko-ro": "Jib-i Eobs-eo"
+          },
+          {
+            "ja": "家がない！"
+          },
+          {
+            "zh-hk": "無家可歸"
+          }
+        ],
+        "description": {
+          "en": "Haejoon Goh, who ran from home, and Eunyung Baek, the problem child who lives in a tent.   \r\nThese two, who met under terrible circumstances, are forced to live together in an abandoned dormitory.   \r\nThis is a story of difficult growth between two people who hate both the dorm and each other.",
+          "ja": "何もかもを捨てて家を飛び出した黒岩健太と テント生活をしている白川玲。 帰る場所が無い二人は廃家と化した寮で一緒に暮らすことになるが… 住む場所も同居人も気に入らない二人が繰り広げるドタバタ成長ストーリ―",
+          "zh-hk": "離家出走的高海俊，以及住在破爛帳篷裡的問題學生白恩永， 兩人在因緣際會下與彼此相識，並共同住在一間廢棄的舊宿舍裡。 雖然討厭宿舍也討厭對方，卻無家可歸的兩個人共患難的成長故事。"
+        },
+        "isLocked": false,
+        "links": {
+          "al": "126986",
+          "kt": "59561",
+          "mu": "33ehyvf",
+          "mal": "147769",
+          "raw": "https://comic.naver.com/webtoon/list.nhn?titleId=721433"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ko",
+        "lastVolume": null,
+        "lastChapter": "269",
+        "publicationDemographic": null,
+        "status": "completed",
+        "year": 2018,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3bb26d85-09d5-4d2e-880c-c34b974339e9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Ghosts"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3e2b8dae-350e-4ab8-a8ce-016e844b9f0d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Long Strip"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "School Life"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Web Comic"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f5ba408b-0e7a-484d-8d49-4e9125ac96de",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Full Color"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2020-05-29T08:14:56+00:00",
+        "updatedAt": "2025-11-15T22:08:54+00:00",
+        "version": 25,
+        "availableTranslatedLanguages": [
+          "fr",
+          "vi",
+          "en",
+          "es-la",
+          "id",
+          "tr",
+          "es",
+          "pt-br",
+          "ar",
+          "hu"
+        ],
+        "latestUploadedChapter": "346aac77-7fbb-46bf-9619-ae521b442cf8"
+      },
+      "relationships": [
+        {
+          "id": "d16dfec4-5289-4c0c-b15b-78b292bcef48",
+          "type": "author",
+          "attributes": {
+            "name": "Wanan",
+            "imageUrl": null,
+            "biography": {},
+            "twitter": null,
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2021-04-19T21:59:45+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "d16dfec4-5289-4c0c-b15b-78b292bcef48",
+          "type": "artist"
+        },
+        {
+          "id": "c3cfa9c0-f70a-4fa0-9834-9d31c2039c0e",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "1",
+            "fileName": "bc55de2a-47dd-41cb-9338-75b3f0650a69.jpg",
+            "locale": "ko",
+            "createdAt": "2021-05-23T07:29:56+00:00",
+            "updatedAt": "2022-12-29T00:47:48+00:00",
+            "version": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b0b721ff-c388-4486-aa0f-c2b0bb321512",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "ja-ro": "Sousou no Frieren"
+        },
+        "altTitles": [
+          {
+            "en": "Frieren: Beyond Journey's End"
+          },
+          {
+            "en": "Frieren at the Funeral"
+          },
+          {
+            "ru": "Фрирен, провожающая в последний путь"
+          },
+          {
+            "ja": "葬送のフリーレン"
+          },
+          {
+            "zh-hk": "葬送的芙莉蓮"
+          },
+          {
+            "ko": "장송의 프리렌"
+          },
+          {
+            "th": "คำอธิษฐานในวันที่จากลา Frieren"
+          },
+          {
+            "el": "Φρίρεν: Πέρα από το Τέλος του Ταξιδιού"
+          },
+          {
+            "de": "Frieren: Nach dem Ende der Reise"
+          },
+          {
+            "en": "Frieren: Remnants Of The Departed"
+          },
+          {
+            "es-la": "Frieren: Más allá del final"
+          },
+          {
+            "es-la": "Frieren: Más allá del fin del viaje"
+          },
+          {
+            "vi": "Pháp Sư Tiễn Táng Frieren"
+          }
+        ],
+        "description": {
+          "el": "Έχοντας νικήσει τον βασιλιά των δαιμόνων, το ταξίδι μιας δεκαετίας φτάνει στο τέλος του και μια νέα εποχή ειρήνης ξεκινά. Η ζωή όμως συνεχίζεται, ειδικά για την Φρίρεν, πως ως ξωτικό έχει ακόμα αιώνες ζωής μπροστά της. Με τις δεκαετίες να περνάνε, η Φρίρεν έρχεται αντιμέτωπη με την μεταβλητότητα του κόσμου και την παροδικότητα των ανθρώπων. Μετά από μια τελευταία συνάντηση με όλη την παλιά της ομάδα, συνειδητοποιεί ότι ο χρόνος που πέρασε με τους φίλους της ήταν υπερβολικά σύντομος και ότι δεν θα έχει ποτέ την ευκαιρία να τους μάθει καλύτερα. Έρχοντας αντιμέτωπη με την αλήθεια αυτή, η Φρίρεν αποφασίζει να ξεκινήσει ένα ακόμα ταξίδι αλλά αυτή τη φορά έχοντας σκοπό να μάθει το τι σημαίνει να είσαι άνθρωπος.",
+          "en": "The adventure is over but life goes on for an elf mage just beginning to learn what living is all about. Elf mage Frieren and her courageous fellow adventurers have defeated the Demon King and brought peace to the land. With the great struggle over, they all go their separate ways to live a quiet life. But as an elf, Frieren, nearly immortal, will long outlive the rest of her former party. How will she come to terms with the mortality of her friends? How can she find fulfillment in her own life, and can she learn to understand what life means to the humans around her? Frieren begins a new journey to find the answer.",
+          "es": "Frieren es una elfa, y como para todos los de su raza, los años pasan en un suspiro… pero no es así para sus antiguos compañeros de batalla, a los que Frieren verá morir y envejecer. De repente Frieren se da cuenta de que pese a que la vida avanza a un ritmo más lento para ella, las experiencias con sus seres queridos se le escapan de las manos. Un aire nostálgico envuelve a este manga fantástico tan entrañable que ha vendido ya más de 2,5 millones de copias en Japón.",
+          "fr": "Que deviennent les héros une fois le mal vaincu ?\nDans ce coffret collector : un jeu de 54 cartes entièrement personnalisé aux couleurs de la série et le manga avec une jaquette alternative réversible !\n\nAlors que Frieren et ses compagnons font halte dans la citadelle de Heiß, Stark propose à Fern d'aller en rendez-vous, sur le ton de la plaisanterie... et contre toute attente, la jeune fille accepte ! Sur les conseils de l'elfe, qui n'y connaît pas grand-chose, le guerrier emmène donc son amie faire le tour de la ville, ce qui leur permet de se rapprocher un peu.\n\nAprès cette pause bienvenue, les trois aventuriers repartent sur les routes et arrivent au haut-plateau du Nord, une zone extrêmement dangereuse où pullulent aussi bien des monstres coriaces que des démons retors... Parviendront-ils à survivre dans cette région hostile ?",
+          "vi": "Tổ đội anh hùng đã đánh bại được quỷ vương và kết thúc cuộc hành trình của họ. Nhưng thế chưa phải là hết, cuộc đời của cô nàng pháp sư Elf này sẽ còn rất dài, hơn cả những người đồng đội cũ của cô, một cuộc phiêu lưu mới để cô trải qua nhiều cung bậc cảm xúc, cũng như là học hỏi thêm về con người.",
+          "es-la": "Tras cumplir su misión de derrotar al Rey Demonio, la maga elfo Frieren, el héroe Himmel, el sacerdote Heiter y el guerrero Eisen regresan a casa después de un viaje de una década donde disolverán su grupo y tomarán sus propios caminos. Pero el tiempo pasa de forma distinta para los elfos, Frieren comienza a ser testigo de como sus excompañeros sufren sus estragos y comienzan a morir lentamente y uno a uno. Antes de fallecer, Heiter el sacerdote, le impone a Frieren un aprendiz humana llamada Fern. Llevados por la afición que tiene la alfa por recolectar hechizos mágicos, ambos emprenderán una aventura, llena de magia e introspección, que los llevará a revisitar lugares que había conocido en su anterior travesía, mientras enfrenta el pesar que le causa descubrir todas las posibilidades que ha desperdiciado en su viaje que le hubiesen posibilitado entablar una relación más cercana con sus compañeros ahora fallecidos.",
+          "zh-hk": "在打倒了魔王的勇者一行人当中，魔法使芙莉莲是精灵，她和其他三人有不一样的地方。 生活在“之后”的世界里，她感受到了什么—— 留下来的人们所编织的葬送与祈祷又意味着什么—— 故事从“冒险的结束”开始。 这是讲述英雄们的活法的，后日谈奇幻作品！"
+        },
+        "isLocked": true,
+        "links": {
+          "al": "118586",
+          "ap": "frieren-beyond-journeys-end",
+          "kt": "56355",
+          "mu": "ugf5dzu",
+          "mal": "126287",
+          "raw": "https://www.sunday-webry.com/detail.php?title_id=1093",
+          "engtl": "https://www.viz.com/vizmanga/chapters/frieren-the-journeys-end"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "shounen",
+        "status": "ongoing",
+        "year": 2020,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Monsters"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Demons"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Magic"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2020-06-30T04:20:01+00:00",
+        "updatedAt": "2025-11-18T10:39:27+00:00",
+        "version": 71,
+        "availableTranslatedLanguages": [
+          "pt-br",
+          "es-la",
+          "tr",
+          "ar",
+          "vi",
+          "id",
+          "ru",
+          "en",
+          "it",
+          "cs",
+          "th",
+          "el",
+          "fr",
+          "uk"
+        ],
+        "latestUploadedChapter": "ae58cfae-d520-4813-b05b-decd65a85a12"
+      },
+      "relationships": [
+        {
+          "id": "b3136811-9761-4606-93cf-583a00dde5e9",
+          "type": "author",
+          "attributes": {
+            "name": "Yamada Kanehito",
+            "imageUrl": null,
+            "biography": {
+              "en": "**Alternate names**: 山田鐘人,야마다 카네히토"
+            },
+            "twitter": null,
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2024-02-09T20:33:26+00:00",
+            "version": 4
+          }
+        },
+        {
+          "id": "ff98c5c0-daca-4c97-8c3d-1e2b98d04d9b",
+          "type": "artist"
+        },
+        {
+          "id": "453ce7f9-83a2-471d-8bc3-614bc199dc2e",
+          "type": "cover_art",
+          "attributes": {
+            "description": "Volume 15 cover from Rakuten Books",
+            "volume": "15",
+            "fileName": "0db48a8b-b0a3-4f8d-a1d8-68e3ddcc7f8c.jpg",
+            "locale": "ja",
+            "createdAt": "2025-12-02T22:23:55+00:00",
+            "updatedAt": "2025-12-02T22:23:55+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "03f3f742-e2da-4f3c-b057-0bb9da6757ee",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "11180e45-12ba-47e4-a985-cb88c217195b",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "140458f7-be02-424b-98ac-1aa0cd9f45f9",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "1d55e985-8379-41bc-aeca-acd069bcadd0",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "1e46de27-70a0-4aca-8192-b5a3c589ddfd",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "2062949e-2ff0-402b-9919-e35084208be6",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "48e38031-2e40-43ad-9766-09fe9864e388",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "5d938a16-b45b-4922-b77e-7ccf8dbf38b4",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "72819479-d7c8-4e92-b62b-e58e9c8b4421",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "81335419-9d87-4a01-a1ea-de6348f19b38",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "829d5943-a4eb-47e3-9dce-ef2d6c519e12",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "8af7e88b-2586-4a89-a6ab-16028c821b1a",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "8edc81f2-bb70-4100-9df7-2552a14e5d75",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "9906dfa8-52c9-40ac-8eef-1099a85c8611",
+          "type": "manga",
+          "related": "spin_off"
+        },
+        {
+          "id": "a3f81ae7-31b1-4319-9d4c-47d387c8b23e",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "b256dd98-1e69-4348-af24-8df8ddad6db2",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "b5097dd6-a42f-4dba-b281-0609378e939f",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "e5afc3bc-c054-4b71-a182-a7e5ae9a4417",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "ee794d7d-322e-450f-bff3-1f52ded9a039",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "f90624a8-7964-44da-bd33-78a4c748ef6e",
+          "type": "manga",
+          "related": "doujinshi"
+        }
+      ]
+    },
+    {
+      "id": "85b3504c-62e8-49e7-9a81-fb64a3f51def",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "ja-ro": "Houkago Kitaku Biyori"
+        },
+        "altTitles": [
+          {
+            "ja": "放課後帰宅びより"
+          },
+          {
+            "en": "Journey Home After School"
+          },
+          {
+            "tl": "Pag-uwi mula sa paaralan"
+          },
+          {
+            "pt-br": "Viagem para casa depois da escola"
+          },
+          {
+            "ru": "Дорога домой после школы"
+          },
+          {
+            "es-la": "El camino a casa después de la escuela"
+          },
+          {
+            "vi": "Câu lạc bộ siêu cấp về nhà"
+          }
+        ],
+        "description": {
+          "en": "Shun was invited to the Going-Home Club by Naoki Satou, also known as \"Chokki-chan\". Despite refusing, he ends up being somewhat forcefully involved in the club's activities! A Going Home Club rom-com featuring a detour-loving high school girl and a new high school student who has lost his dream.",
+          "ja": "佐藤直希こと“直帰ちゃん”から帰宅部に勧誘された瞬。断ったのに、半ば強引な形で活動に参加させられるハメに！ 寄り道大好き女子高生と夢を失った新入生が紡ぐ帰宅部ラブコメディ！\n\n---\n\nSatō Naoki koto “chokki-chan” kara kitaku-bu ni kan'yū sa reta Shun. Kotowatta no ni, nakaba gōin'na katachi de katsudō ni sanka sa se rareru hame ni! Yorimichi daisuki mesukōsei to yume o ushinatta shin'nyūsei ga tsumugu kitaku-bu rabukomedi!",
+          "tl": "Inimbitahan si Shun sa Klab ng Uwian ni Naoki Satou, na kilala rin bilang \"Chokki-chan\". Kahit na tumanggi siya, napasama pa rin siya sa mga gawain ng klab sa medyo pilit na paraan! Isang romantikong komedya tungkol sa Klab ng Uwian na tampok ang isang hayskul na dalaga na mahilig maglibot at isang bagong estudyante sa hayskul na nawalan ng pangarap.",
+          "tr": "Shun, \"Chokki-chan\" olarak da bilinen Naoki Satou tarafından Eve Gitme Kulübü'ne davet edildi. Teklifi reddetmesine rağmen kulübün etkinliklerine biraz zorlamayla dahil olmak zorunda kalır! Yoldayken farklı yerlere uğramayı seven bir liseli kızın ve hayallerini kaybetmiş bir liseli erkeğin Eve Gitme Kulübü'ndeki romantik komedili maceralarına katılın.",
+          "es-la": "Shun fue invitado al Club de Irse a Casa por Naoki Satou, también conocida como \"Chokki-chan\". A pesar de negarse, acaba involucrándose a la fuerza en las actividades del club. Una comedia romántica del Club de Irse a Casa protagonizada por una chica de preparatoria amante de los desvíos y un nuevo estudiante de preparatoria que ha perdido su sueño.",
+          "pt-br": "Shun foi convidado para o Clube vá-para casa por Naoki Satou, também conhecido como \"Chokki-chan\". Apesar de recusar, ele acaba se envolvendo de alguma forma nas atividades do clube! Uma comédia romântica do Clube vá-para casa apresentando uma colegial amante de desvios e um novo aluno do ensino médio que perdeu seu sonho."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "173062",
+          "ap": "houkago-kitaku-biyori",
+          "bw": "series/455662/list",
+          "kt": "70966",
+          "mu": "1210hao",
+          "amz": "https://www.amazon.co.jp/dp/B0CQKJZX8K",
+          "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2929413",
+          "ebj": "https://ebookjapan.yahoo.co.jp/books/809808",
+          "mal": "165876",
+          "raw": "https://comic-action.com/episode/4856001361584756651"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "seinen",
+        "status": "ongoing",
+        "year": 2023,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Romance"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "School Life"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2024-01-05T02:35:47+00:00",
+        "updatedAt": "2025-10-17T11:14:02+00:00",
+        "version": 47,
+        "availableTranslatedLanguages": [
+          "id",
+          "vi",
+          "es-la",
+          "tl",
+          "en",
+          "ru",
+          "pt-br"
+        ],
+        "latestUploadedChapter": "bac69433-49f5-469f-895f-168a29861c0b"
+      },
+      "relationships": [
+        {
+          "id": "dade3bf2-d8e1-4432-8cf6-6bcb6a386523",
+          "type": "author",
+          "attributes": {
+            "name": "Matsuda Mai",
+            "imageUrl": null,
+            "biography": {},
+            "twitter": "https://twitter.com/_mymatsuda_",
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2022-05-31T07:27:46+00:00",
+            "updatedAt": "2024-01-07T02:59:32+00:00",
+            "version": 2
+          }
+        },
+        {
+          "id": "dade3bf2-d8e1-4432-8cf6-6bcb6a386523",
+          "type": "artist"
+        },
+        {
+          "id": "f2975975-f237-47ae-8650-d22478385a53",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "5",
+            "fileName": "26156408-cd8f-4ecb-a2b7-7cf56cb63a5a.jpg",
+            "locale": "ja",
+            "createdAt": "2025-10-17T11:14:44+00:00",
+            "updatedAt": "2025-10-17T11:14:44+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "fe9c8430-52cf-4173-a87d-89a786fbeb49",
+          "type": "creator"
+        }
+      ]
+    },
+    {
+      "id": "ea47525d-99df-45b5-9103-dd853f49f8c3",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Mairimashita! Iruma-kun: If Episode of Mafia"
+        },
+        "altTitles": [
+          {
+            "ja": "魔入りました！入間くん　ｉｆ　Ｅｐｉｓｏｄｅ　ｏｆ　魔フィア"
+          },
+          {
+            "en": "Welcome to Demon School! Iruma-kun: If Episode of Mafia"
+          },
+          {
+            "ko": "악마에 입문했습니다! if Episode of 魔fia"
+          },
+          {
+            "es-la": "Iruma-kun en la Mafia"
+          },
+          {
+            "vi": "Iruma Giá Đáo!: IF Episode of MAFIA"
+          }
+        ],
+        "description": {
+          "en": "The beloved characters of Mairimashita! Iruma-kun star in this Mafia-based spinoff! Young Iruma saves an injured mob boss from death... and then becomes his grandson!?",
+          "ja": "暴力や犯罪は当たり前の貧民街-スラム-で育った心優しい少年・イルマ。瀕死状態で倒れていた、マフィア組織【バビル】のドン・サリバンを助けたことで、イルマの運命の歯車が動き出す！ マフィア組織【バビル】を中心に巻き起こる、マフィア・アクションコメディ！",
+          "vi": "Spin-Off của tác phẩm\"Mairimashita! Iruma-kun\" theo hướng What-If, thế giới của tác phẩm lần này sẽ xoay quanh việc các nhân vật sẽ sống trong thế giới của các Mafia",
+          "es-la": "¡Un spin-off oficial de Mairimashita! Iruma-kun, en un universo alternativo en el que Iruma se convierte en un destacado miembro de la mafia. A pesar de tener sólo cinco años, Iruma ha visto muchas cosas como niño de la calle... ¡la más reciente, a un anciano desangrándose justo delante de donde vive! Como buen chico, Iruma se dedica a curar al anciano y no le da importancia. Sin embargo, cuando el anciano regresa de repente, se revela como Don Sullivan, ¡jefe de la organización clandestina conocida como Babyls! Se ofrece a adoptar a Iruma como su nieto, una oferta que Iruma se ve incapaz de rechazar...",
+          "pt-br": "Os amados personagens de Mairimashita! Iruma-kun estrela neste spinoff baseado na máfia! O jovem Iruma salva um chefe da máfia ferido da morte... e então se torna seu neto!?"
+        },
+        "isLocked": false,
+        "links": {
+          "al": "167422",
+          "ap": "welcome-to-demon-school-iruma-kun-if-episode-of-mafia",
+          "bw": "series/444550/list",
+          "kt": "72543",
+          "mu": "21ufgh0",
+          "amz": "https://www.amazon.co.jp/dp/B0CQK8ZH92",
+          "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2919509",
+          "ebj": "https://ebookjapan.yahoo.co.jp/books/802079",
+          "mal": "162733",
+          "raw": "https://www.akitashoten.co.jp/series/12862"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "shounen",
+        "status": "ongoing",
+        "year": 2023,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Crime"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "85daba54-a71c-4554-8a28-9901a8b0afad",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Mafia"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "df33b754-73a3-4c54-80e6-1a74a8058539",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Police"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2023-09-11T23:34:34+00:00",
+        "updatedAt": "2025-11-23T17:18:56+00:00",
+        "version": 36,
+        "availableTranslatedLanguages": [
+          "en",
+          "vi",
+          "ar",
+          "id",
+          "pt-br",
+          "es-la"
+        ],
+        "latestUploadedChapter": "432a3a80-ae14-4cbe-8821-c14267f768c6"
+      },
+      "relationships": [
+        {
+          "id": "1219257e-9850-4abe-8e37-db9ef91ec45e",
+          "type": "author",
+          "attributes": {
+            "name": "Hiroja",
+            "imageUrl": null,
+            "biography": {
+              "en": "**Alternate Names:**\nhiromono\nhiro者"
+            },
+            "twitter": "https://twitter.com/hiromono_",
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2022-06-17T15:16:27+00:00",
+            "updatedAt": "2023-09-24T04:54:39+00:00",
+            "version": 3
+          }
+        },
+        {
+          "id": "1219257e-9850-4abe-8e37-db9ef91ec45e",
+          "type": "artist"
+        },
+        {
+          "id": "2f83557a-ff97-4a89-8990-53ef21a3d27a",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "6",
+            "fileName": "211fc515-98d2-4f2f-a696-c787072ba889.jpg",
+            "locale": "ja",
+            "createdAt": "2025-10-06T14:34:34+00:00",
+            "updatedAt": "2025-10-06T14:34:34+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "61526d2c-1a12-402e-9072-76d4a8010cbd",
+          "type": "manga",
+          "related": "same_franchise"
+        },
+        {
+          "id": "6cc9da8e-b1b5-4025-858f-8cfef2e8b241",
+          "type": "manga",
+          "related": "colored"
+        },
+        {
+          "id": "a2263632-9329-4e3d-95d5-ee9022128581",
+          "type": "manga",
+          "related": "same_franchise"
+        },
+        {
+          "id": "c8a49176-cf28-42e5-960e-8efd2d903323",
+          "type": "manga",
+          "related": "same_franchise"
+        },
+        {
+          "id": "d7037b2a-874a-4360-8a7b-07f2899152fd",
+          "type": "manga",
+          "related": "alternate_story"
+        },
+        {
+          "id": "2f2b6596-9fc4-4223-99b5-6295b7fbad1b",
+          "type": "creator"
+        }
+      ]
+    },
+    {
+      "id": "f7888782-0727-49b0-95ec-a3530c70f83b",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Hajime no Ippo"
+        },
+        "altTitles": [
+          {
+            "ja": "はじめの一歩"
+          },
+          {
+            "en": "Hajime no Ippo: Fighting Spirit!"
+          },
+          {
+            "ko": "더 파이팅"
+          },
+          {
+            "zh": "第一神拳"
+          },
+          {
+            "fr": "Ippo"
+          },
+          {
+            "id": "Fight!! Ippo"
+          },
+          {
+            "ru": "Первый шаг!"
+          },
+          {
+            "th": "ก้าวแรกสู่สังเวียน"
+          }
+        ],
+        "description": {
+          "en": "Makunouchi Ippo is an ordinary high school student in Japan. Since he spends most of his time away from school helping his mother run the family business, he doesn't get to enjoy his younger years like most teenagers. Always a target for bullying at school, Ippo's life is one of hardship. One of these after-school bullying sessions turns Ippo's life around for the better, as he is saved by a boxer named Takamura. He decides to follow in Takamura's footsteps and train to become a boxer, giving his life direction and purpose. Ippo's path to perfecting his pugilistic prowess is just beginning.\n___\nOfficial Release:\n- Indonesian release by Level Comics as **Fight!! Ippo** (2006-ongoing)",
+          "ja": "ひたむき少年、一歩（いっぽ）登場！！「強いって、一体どんな気持ちですか？」ドジでいじめられっ子の高校生、幕之内（まくのうち）一歩。ボクサー・鷹村（たかむら）との出会いによって、拳（こぶし）にひそむダイナマイトパンチを呼び起こした！プロボクサーへの夢を抱いた一歩は、鴨川（かもがわ）ジムの入門テストに挑戦して……！？",
+          "pt-br": "Ippo Makunouchi, um tímido estudante de ensino médio, é um dia salvo se der espancado, por Takamura, um boxeador. Encantado pelas habilidade de Takamura e por vídeos de boxe, Ippo decide enfrentar o mundo profissional do boxe!"
+        },
+        "isLocked": false,
+        "links": {
+          "al": "30007",
+          "bw": "series/4258/list",
+          "mu": "9ft0dv5",
+          "mal": "7"
+        },
+        "officialLinks": null,
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "shounen",
+        "status": "ongoing",
+        "year": 1989,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Psychological"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Sports"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Martial Arts"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "School Life"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-02-26T23:51:18+00:00",
+        "updatedAt": "2025-11-21T06:27:55+00:00",
+        "version": 38,
+        "availableTranslatedLanguages": [
+          "pt-br",
+          "en",
+          "ar",
+          "fr",
+          "es",
+          "ru",
+          "pl",
+          "id",
+          "es-la",
+          "de"
+        ],
+        "latestUploadedChapter": "2b2056e0-d77a-4035-8bd1-2cbe51028e4c"
+      },
+      "relationships": [
+        {
+          "id": "c6c60b88-c03c-46f1-b66d-bda51287d578",
+          "type": "author",
+          "attributes": {
+            "name": "Morikawa George",
+            "imageUrl": null,
+            "biography": {},
+            "twitter": null,
+            "pixiv": null,
+            "melonBook": null,
+            "fanBox": null,
+            "booth": null,
+            "namicomi": null,
+            "nicoVideo": null,
+            "skeb": null,
+            "fantia": null,
+            "tumblr": null,
+            "youtube": null,
+            "weibo": null,
+            "naver": null,
+            "website": null,
+            "createdAt": "2021-04-19T21:59:45+00:00",
+            "updatedAt": "2021-04-19T21:59:45+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "c6c60b88-c03c-46f1-b66d-bda51287d578",
+          "type": "artist"
+        },
+        {
+          "id": "8172b8c8-dbb3-4ccd-9a78-00c7410f36b8",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "144",
+            "fileName": "68a3cfb5-dd51-4c8c-a2d5-1662af30ea32.jpg",
+            "locale": "ja",
+            "createdAt": "2025-07-30T16:02:56+00:00",
+            "updatedAt": "2025-07-30T16:02:56+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "207cbe9b-29a7-4499-8228-7f335615b496",
+          "type": "manga",
+          "related": "alternate_version"
+        },
+        {
+          "id": "67bfd1a8-1492-4a05-b169-45f6d4de6e7a",
+          "type": "manga",
+          "related": "prequel"
+        },
+        {
+          "id": "6baeaf3a-4e85-4d35-939f-199a0b33eac0",
+          "type": "manga",
+          "related": "colored"
+        }
+      ]
+    }
+  ],
+  "limit": 20,
+  "offset": 0,
+  "total": 69017
+}

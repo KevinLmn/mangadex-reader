@@ -1,105 +1,56 @@
-import { Chapter as PrismaChapter } from "@prisma/client";
+import {
+  FastifyPluginAsyncTypebox,
+  Type,
+} from "@fastify/type-provider-typebox";
 import axios from "axios";
-import { FastifyRequest } from "fastify";
-import prisma from "../prisma.js";
-import redis from "../redis.js";
 
-type MangaIdRequestBody = {
-  limit: number;
-  offset: number;
+const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
+  fastify.post(
+    "/:id",
+    {
+      schema: {
+        params: Type.Object({
+          id: Type.String(),
+        }),
+        body: Type.Object({
+          limit: Type.Number({ default: 20 }),
+          offset: Type.Number({ default: 0 }),
+        }),
+        querystring: Type.Object({
+          downloaded: Type.Optional(Type.String()),
+        }),
+        tags: ["Manga"],
+        summary: "Get manga details and chapters",
+        description:
+          "Returns manga information and chapters. Use downloaded=true for downloaded chapters.",
+      },
+    },
+    async (request, reply) => {
+      const { id } = request.params;
+      const { limit, offset } = request.body;
+      const isDownloaded = request.query.downloaded;
+
+      if (isDownloaded === "true") {
+        return getDownloadedScans(fastify, id, limit, offset);
+      }
+      return getNotDownloadedScans(fastify, request, id, limit, offset);
+    }
+  );
 };
 
-type DownloadChapterIdParams = {
-  id: string;
-};
-
-type MangaIdParams = {
-  id: string;
-};
-
-type GetDownloadedScansControllerReturnType = {
-  chaptersLength: number;
-  chapters: PrismaChapter[];
-};
-
-type MangaResponse = {
-  data: {
-    id: string;
-    type: string;
-    attributes: {
-      title: Record<string, string>;
-      description: Record<string, string>;
-      status: string;
-      year: number;
-      contentRating: string;
-      tags: Array<{
-        id: string;
-        type: string;
-        attributes: { name: Record<string, string> };
-      }>;
-    };
-    relationships: Array<{
-      id: string;
-      type: string;
-      attributes?: Record<string, any>;
-    }>;
-  };
-};
-
-type ChapterResponse = {
-  data: Array<{
-    id: string;
-    type: string;
-    attributes: {
-      volume: string | null;
-      chapter: string;
-      title: string | null;
-      publishAt: string;
-      translatedLanguage: string;
-    };
-  }>;
-  limit: number;
-  offset: number;
-  total: number;
-};
-
-type getNotDownloadedScansByMangaIdResponse = {
-  chapters: ChapterResponse;
-  manga: MangaResponse;
-};
-
-export const getMangaController = async (
-  request: FastifyRequest<{
-    Body: MangaIdRequestBody;
-    Params: DownloadChapterIdParams;
-    Querystring: { downloaded?: string };
-  }>
-): Promise<
-  | GetDownloadedScansControllerReturnType
-  | getNotDownloadedScansByMangaIdResponse
-> => {
-  const isDownloaded = request.query.downloaded;
-
-  if (isDownloaded === "true") return getDownloadedScansController(request);
-  return getNotDownloadedScansByMangaId(request);
-};
-
-const getDownloadedScansController = async (
-  request: FastifyRequest<{
-    Body: MangaIdRequestBody;
-    Params: DownloadChapterIdParams;
-  }>
-): Promise<GetDownloadedScansControllerReturnType> => {
-  const { id } = request.params;
-  const { limit, offset } = request.body;
-
+async function getDownloadedScans(
+  fastify: any,
+  id: string,
+  limit: number,
+  offset: number
+) {
   const cacheKey = `manga:${id}:downloaded:${limit}:${offset}`;
-  const cached = await redis.get(cacheKey);
+  const cached = await fastify.redis.get(cacheKey);
   if (cached) {
     return JSON.parse(cached);
   }
 
-  const chapters = await prisma.chapter.findMany({
+  const chapters = await fastify.prisma.chapter.findMany({
     where: {
       mangaId: id,
     },
@@ -108,23 +59,25 @@ const getDownloadedScansController = async (
   const result = {
     chaptersLength: chapters.length,
     chapters: chapters
-      .sort((a, b) => b.number - a.number)
+      .sort((a: any, b: any) => b.number - a.number)
       .slice(offset * limit, Math.min(offset * limit + limit, chapters.length)),
   };
 
-  await redis.set(cacheKey, JSON.stringify(result), "EX", 24 * 60 * 60); // Cache for 24 minutes
+  await fastify.redis.set(cacheKey, JSON.stringify(result), "EX", 24 * 60 * 60);
   return result;
-};
+}
 
-const getNotDownloadedScansByMangaId = async (
-  request: FastifyRequest<{ Body: MangaIdRequestBody; Params: MangaIdParams }>
-): Promise<getNotDownloadedScansByMangaIdResponse> => {
-  const { id } = request.params;
-  const { limit, offset } = request.body;
+async function getNotDownloadedScans(
+  fastify: any,
+  request: any,
+  id: string,
+  limit: number,
+  offset: number
+) {
   const token = request.headers.authorization;
 
   const cacheKey = `manga:${id}:not-downloaded:${limit}:${offset}`;
-  const cached = await redis.get(cacheKey);
+  const cached = await fastify.redis.get(cacheKey);
   if (cached) {
     return JSON.parse(cached);
   }
@@ -158,10 +111,12 @@ const getNotDownloadedScansByMangaId = async (
     );
 
     const result = { manga: responseMangaDetail.data, chapters: resp.data };
-    await redis.set(cacheKey, JSON.stringify(result), "EX", 24 * 60 * 60); // Cache for 24 hours
+    await fastify.redis.set(cacheKey, JSON.stringify(result), "EX", 24 * 60 * 60);
     return result;
   } catch (e) {
-    console.error(e);
+    fastify.log.error(e);
     throw new Error("Manga not found");
   }
-};
+}
+
+export default plugin;

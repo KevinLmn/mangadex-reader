@@ -1,3 +1,4 @@
+import "dotenv/config";
 import Fastify from "fastify";
 import fp from "fastify-plugin";
 
@@ -36,7 +37,7 @@ async function init() {
   app.register(fp(serviceApp));
 
   closeWithGrace(
-    { delay: process.env.FASTIFY_CLOSE_GRACE_DELAY ?? 500 },
+    { delay: Number(process.env.FASTIFY_CLOSE_GRACE_DELAY) || 500 },
     async ({ err }) => {
       if (err != null) {
         app.log.error(err);
@@ -50,7 +51,7 @@ async function init() {
 
   try {
     // Start listening.
-    await app.listen({ port: process.env.PORT ?? 3000 });
+    await app.listen({ port: Number(process.env.PORT) || 3012, host: "0.0.0.0" });
   } catch (err) {
     app.log.error(err);
     process.exit(1);

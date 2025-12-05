@@ -5,8 +5,10 @@ import axios, { AxiosError, AxiosInstance, InternalAxiosRequestConfig } from 'ax
  */
 const refreshAccessToken = async (): Promise<string> => {
   try {
+    const token = localStorage.getItem('authToken');
     const response = await axios.post<{ token: string }>(
-      `${process.env.NEXT_PUBLIC_API_URL}/auth/refresh`
+      `${process.env.NEXT_PUBLIC_API_URL}/api/refresh-token`,
+      { token }
     );
     const newToken = response.data.token;
 
@@ -74,5 +76,6 @@ const createAxiosInstance = (baseURL: string): AxiosInstance => {
   return instance;
 };
 
-const api = createAxiosInstance(process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3012');
+const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3012';
+const api = createAxiosInstance(`${baseUrl}/api`);
 export default api;
