@@ -8,7 +8,7 @@ import { ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
-import { useState, Suspense } from 'react';
+import { useState, Suspense, useEffect } from 'react';
 
 interface MangaResult {
   id: string;
@@ -27,6 +27,10 @@ function SearchResults() {
   const query = searchParams.get('q') || '';
   const [page, setPage] = useState(0);
   const limit = 20;
+
+  useEffect(() => {
+    setPage(0);
+  }, [query]);
 
   const { data, isLoading, isError } = useSearchManga(query, limit, page * limit);
 

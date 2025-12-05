@@ -3,10 +3,17 @@
 import { useAuth } from '@/shared/context/AuthContext';
 import { Heart, LogOut, User } from 'lucide-react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { SearchBar } from './SearchBar';
 
 export function Header() {
   const { user, logout, isLoading } = useAuth();
+  const pathname = usePathname();
+
+  // Hide header on reader pages (they have their own header)
+  if (pathname?.includes('/chapter/')) {
+    return null;
+  }
 
   return (
     <header className="fixed top-0 right-0 z-50 p-4 flex items-center gap-4 bg-gray-900/80 backdrop-blur-sm rounded-bl-lg">

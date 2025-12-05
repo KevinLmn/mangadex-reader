@@ -2,6 +2,7 @@ import {
   FastifyPluginAsyncTypebox,
   Type,
 } from "@fastify/type-provider-typebox";
+import { Prisma } from "@prisma/client";
 
 const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
   // Register
@@ -42,19 +43,29 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
 
       const hashedPassword = await fastify.passwordManager.bcryptHash(password);
 
-      const user = await fastify.prisma.user.create({
-        data: {
-          email,
-          password: hashedPassword,
-        },
-      });
+      try {
+        const user = await fastify.prisma.user.create({
+          data: {
+            email,
+            password: hashedPassword,
+          },
+        });
 
-      const token = fastify.jwt.sign({ userId: user.id, email: user.email });
+        const token = fastify.jwt.sign({ userId: user.id, email: user.email });
 
-      return reply.status(201).send({
-        user: { id: user.id, email: user.email },
-        token,
-      });
+        return reply.status(201).send({
+          user: { id: user.id, email: user.email },
+          token,
+        });
+      } catch (error) {
+        if (
+          error instanceof Prisma.PrismaClientKnownRequestError &&
+          error.code === "P2002"
+        ) {
+          return reply.status(400).send({ error: "Email already registered" });
+        }
+        throw error;
+      }
     }
   );
 

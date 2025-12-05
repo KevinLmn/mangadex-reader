@@ -27,7 +27,7 @@ interface MangaInfo {
 export default function FavoritesPage() {
   const { user, isLoading: isAuthLoading } = useAuth();
   const router = useRouter();
-  const { data: favorites, isLoading: isFavoritesLoading } = useFavorites();
+  const { data: favorites, isLoading: isFavoritesLoading, isError } = useFavorites();
   const [mangaInfos, setMangaInfos] = useState<Record<string, MangaInfo>>({});
   const [loadingMangas, setLoadingMangas] = useState(false);
 
@@ -87,6 +87,22 @@ export default function FavoritesPage() {
 
   if (!user) {
     return null;
+  }
+
+  if (isError) {
+    return (
+      <div className="container mx-auto px-4 py-8 pt-20">
+        <div className="mb-8">
+          <Link href="/" className="inline-flex items-center text-gray-400 hover:text-white">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to Home
+          </Link>
+        </div>
+        <p className="text-center text-red-500">
+          Failed to load favorites. Please try again.
+        </p>
+      </div>
+    );
   }
 
   return (

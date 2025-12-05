@@ -45,12 +45,12 @@ model Chapter {
 }
 
 model User {
-  id        String     @id @default(uuid())
-  email     String     @unique
-  password  String
-  createdAt DateTime   @default(now())
-  views     MangaView[]
-  favorites Favorite[]
+  id              String            @id @default(uuid())
+  email           String            @unique
+  password        String
+  createdAt       DateTime          @default(now())
+  favorites       Favorite[]
+  readingProgress ReadingProgress[]
 }
 
 model Favorite {
@@ -63,10 +63,15 @@ model Favorite {
   @@unique([userId, mangaId])
 }
 
-model MangaView {
-  id        String   @id @default(uuid())
-  user      User     @relation(fields: [userId], references: [id])
-  userId    String
-  mangaId   String
-  viewedAt  DateTime @default(now())
+model ReadingProgress {
+  id         String   @id @default(uuid())
+  user       User     @relation(fields: [userId], references: [id])
+  userId     String
+  mangaId    String
+  chapterId  String
+  page       Int      @default(1)
+  totalPages Int?
+  updatedAt  DateTime @updatedAt
+
+  @@unique([userId, mangaId])
 }

@@ -1,5 +1,6 @@
 'use client';
 
+import { ContinueReading } from '@/features/looby/ContinueReading';
 import { PopularCarousel } from '@/features/looby/PopularCarousel';
 import { Loading } from '@/shared/components/Loading';
 import { cleanOldEntries } from '@/shared/lib/indexedDB';
@@ -34,6 +35,7 @@ export default function List() {
           mangas={popularMangas!}
           onHover={handleMangaHover}
         />
+        <ContinueReading />
         {popularMangas && (
           <MemoizedMangaSection
             mangas={popularMangas}

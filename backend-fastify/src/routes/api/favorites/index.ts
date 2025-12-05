@@ -2,6 +2,7 @@ import {
   FastifyPluginAsyncTypebox,
   Type,
 } from "@fastify/type-provider-typebox";
+import { Prisma } from "@prisma/client";
 
 const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
   // Auth hook for all routes in this plugin
@@ -69,25 +70,25 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
       const { userId } = request.user as { userId: string };
       const { mangaId } = request.body;
 
-      const existing = await fastify.prisma.favorite.findUnique({
-        where: {
-          userId_mangaId: { userId, mangaId },
-        },
-      });
+      try {
+        const favorite = await fastify.prisma.favorite.create({
+          data: { userId, mangaId },
+        });
 
-      if (existing) {
-        return reply.status(409).send({ error: "Already in favorites" });
+        return reply.status(201).send({
+          id: favorite.id,
+          mangaId: favorite.mangaId,
+          addedAt: favorite.addedAt.toISOString(),
+        });
+      } catch (error) {
+        if (
+          error instanceof Prisma.PrismaClientKnownRequestError &&
+          error.code === "P2002"
+        ) {
+          return reply.status(409).send({ error: "Already in favorites" });
+        }
+        throw error;
       }
-
-      const favorite = await fastify.prisma.favorite.create({
-        data: { userId, mangaId },
-      });
-
-      return reply.status(201).send({
-        id: favorite.id,
-        mangaId: favorite.mangaId,
-        addedAt: favorite.addedAt.toISOString(),
-      });
     }
   );
 

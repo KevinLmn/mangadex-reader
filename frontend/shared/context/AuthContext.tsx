@@ -42,8 +42,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     try {
       const { data } = await api.get('/auth/me');
       setUser(data);
-    } catch {
-      removeToken();
+    } catch (error: unknown) {
+      const status = (error as { response?: { status?: number } })?.response?.status;
+      if (status === 401 || status === 403) {
+        removeToken();
+        setUser(null);
+      }
     } finally {
       setIsLoading(false);
     }

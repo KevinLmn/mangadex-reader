@@ -1,7 +1,8 @@
 reviews:
-  auto_review: true
-  request_changes: true
-  review_comment_lgtm: false
+  auto_review:
+  enabled: true
+  auto_incremental_review: true
+  request_changes_workflow: true
 
 commit_message:
   improve_messages: true

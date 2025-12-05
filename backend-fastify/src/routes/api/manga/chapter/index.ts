@@ -216,6 +216,60 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
       return { totalPages: metaData.totalPages };
     }
   );
+
+  fastify.get(
+    "/:chapterId/info",
+    {
+      schema: {
+        params: Type.Object({
+          chapterId: Type.String(),
+        }),
+        response: {
+          200: Type.Object({
+            chapter: Type.Union([Type.String(), Type.Null()]),
+            volume: Type.Union([Type.String(), Type.Null()]),
+            title: Type.Union([Type.String(), Type.Null()]),
+          }),
+        },
+        tags: ["Manga"],
+        summary: "Get chapter info",
+        description: "Returns chapter number, volume, and title",
+      },
+    },
+    async (
+      request: FastifyRequest<{
+        Params: {
+          chapterId: string;
+        };
+      }>
+    ) => {
+      const { chapterId } = request.params;
+      const infoCacheKey = `chapterInfo:${chapterId}`;
+
+      const cachedInfo = await fastify.redis.get(infoCacheKey);
+      if (cachedInfo) {
+        fastify.log.info({ chapterId }, "Cache hit for chapter info");
+        return JSON.parse(cachedInfo);
+      }
+
+      fastify.log.info({ chapterId }, "Cache miss for chapter info");
+      const response = await axios.get(
+        `${process.env.MANGADEX_BASE_URL}/chapter/${chapterId}`
+      );
+
+      const chapterData = response.data.data;
+      const info = {
+        chapter: chapterData.attributes.chapter,
+        volume: chapterData.attributes.volume,
+        title: chapterData.attributes.title,
+      };
+
+      await fastify.redis.set(infoCacheKey, JSON.stringify(info), "EX", 24 * 60 * 60);
+      fastify.log.info({ chapterId }, "Cached chapter info");
+
+      return info;
+    }
+  );
 };
 
 export default plugin;
