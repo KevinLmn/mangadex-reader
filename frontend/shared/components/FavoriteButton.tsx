@@ -14,7 +14,7 @@ interface FavoriteButtonProps {
 export function FavoriteButton({ mangaId, className = '' }: FavoriteButtonProps) {
   const { user } = useAuth();
   const router = useRouter();
-  const { data: isFavorite, isLoading } = useIsFavorite(mangaId);
+  const { data: isFavorite, isLoading } = useIsFavorite(mangaId, !!user);
   const addFavorite = useAddFavorite();
   const removeFavorite = useRemoveFavorite();
 

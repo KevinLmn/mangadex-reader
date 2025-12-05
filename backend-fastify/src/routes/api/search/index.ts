@@ -16,6 +16,18 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
           limit: Type.Optional(Type.Number({ minimum: 1, maximum: 100, default: 20 })),
           offset: Type.Optional(Type.Number({ minimum: 0, default: 0 })),
         }),
+        response: {
+          200: Type.Object({
+            result: Type.String(),
+            data: Type.Array(Type.Any()),
+            limit: Type.Number(),
+            offset: Type.Number(),
+            total: Type.Number(),
+          }),
+          500: Type.Object({
+            error: Type.String(),
+          }),
+        },
         tags: ["Search"],
         summary: "Search manga",
         description: "Search for manga by title",

@@ -1,0 +1,8 @@
+reviews:
+  auto_review: true
+  request_changes: true
+  review_comment_lgtm: false
+
+commit_message:
+  improve_messages: true
+  conventional_commits: true

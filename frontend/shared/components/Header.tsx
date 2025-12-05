@@ -9,12 +9,8 @@ export function Header() {
   const { user, logout, isLoading } = useAuth();
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 p-4 flex items-center justify-between gap-4">
-      <Link href="/" className="text-xl font-bold text-white shrink-0">
-        MangaReader
-      </Link>
-
-      <SearchBar className="flex-1 max-w-md" />
+    <header className="fixed top-0 right-0 z-50 p-4 flex items-center gap-4 bg-gray-900/80 backdrop-blur-sm rounded-bl-lg">
+      <SearchBar className="w-64" />
 
       <div className="flex items-center gap-3 shrink-0">
         {isLoading ? (

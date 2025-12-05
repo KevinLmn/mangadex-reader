@@ -42,10 +42,10 @@ export default function FavoritesPage() {
       if (!favorites || favorites.length === 0) return;
 
       setLoadingMangas(true);
-      const infos: Record<string, MangaInfo> = {};
 
-      for (const fav of favorites as Favorite[]) {
-        try {
+      // Fetch all manga info in parallel
+      const results = await Promise.allSettled(
+        (favorites as Favorite[]).map(async (fav) => {
           const { data } = await api.post(`/manga/${fav.mangaId}?downloaded=false`, {
             limit: 1,
             offset: 0,
@@ -57,17 +57,22 @@ export default function FavoritesPage() {
           );
           const fileName = coverArt?.attributes?.fileName;
 
-          infos[fav.mangaId] = {
+          return {
             id: fav.mangaId,
             title: manga.attributes.title.en || Object.values(manga.attributes.title)[0] || 'Unknown',
             coverUrl: fileName
               ? getProxiedImageUrl(`https://uploads.mangadex.org/covers/${fav.mangaId}/${fileName}.256.jpg`)
               : '',
-          };
-        } catch (error) {
-          console.error(`Failed to fetch manga ${fav.mangaId}:`, error);
+          } as MangaInfo;
+        })
+      );
+
+      const infos: Record<string, MangaInfo> = {};
+      results.forEach((result) => {
+        if (result.status === 'fulfilled') {
+          infos[result.value.id] = result.value;
         }
-      }
+      });
 
       setMangaInfos(infos);
       setLoadingMangas(false);

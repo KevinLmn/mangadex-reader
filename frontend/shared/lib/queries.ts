@@ -212,23 +212,25 @@ export function useSearchManga(query: string, limit = 20, offset = 0) {
 }
 
 // Favorites
-export function useFavorites() {
+export function useFavorites(enabled = true) {
   return useQuery({
     queryKey: ['favorites'],
     queryFn: async () => {
       const { data } = await api.get('/favorites');
       return data;
     },
+    enabled,
   });
 }
 
-export function useIsFavorite(mangaId: string) {
+export function useIsFavorite(mangaId: string, enabled = true) {
   return useQuery({
     queryKey: ['favorite', mangaId],
     queryFn: async () => {
       const { data } = await api.get(`/favorites/${mangaId}`);
       return data.isFavorite;
     },
+    enabled: enabled && !!mangaId,
   });
 }
 

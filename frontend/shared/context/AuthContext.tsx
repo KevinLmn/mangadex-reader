@@ -1,7 +1,13 @@
 'use client';
 
+import { useQueryClient } from '@tanstack/react-query';
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 import api from '../lib/interceptor';
+
+const isBrowser = typeof window !== 'undefined';
+const getToken = () => (isBrowser ? localStorage.getItem('authToken') : null);
+const setToken = (token: string) => isBrowser && localStorage.setItem('authToken', token);
+const removeToken = () => isBrowser && localStorage.removeItem('authToken');
 
 interface User {
   id: string;
@@ -21,9 +27,10 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const queryClient = useQueryClient();
 
   useEffect(() => {
-    const token = localStorage.getItem('authToken');
+    const token = getToken();
     if (token) {
       fetchUser();
     } else {
@@ -36,7 +43,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const { data } = await api.get('/auth/me');
       setUser(data);
     } catch {
-      localStorage.removeItem('authToken');
+      removeToken();
     } finally {
       setIsLoading(false);
     }
@@ -44,19 +51,22 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const login = async (email: string, password: string) => {
     const { data } = await api.post('/auth/login', { email, password });
-    localStorage.setItem('authToken', data.token);
+    setToken(data.token);
     setUser(data.user);
   };
 
   const register = async (email: string, password: string) => {
     const { data } = await api.post('/auth/register', { email, password });
-    localStorage.setItem('authToken', data.token);
+    setToken(data.token);
     setUser(data.user);
   };
 
   const logout = () => {
-    localStorage.removeItem('authToken');
+    removeToken();
     setUser(null);
+    // Clear user-specific queries
+    queryClient.removeQueries({ queryKey: ['favorites'] });
+    queryClient.removeQueries({ queryKey: ['favorite'] });
   };
 
   return (
