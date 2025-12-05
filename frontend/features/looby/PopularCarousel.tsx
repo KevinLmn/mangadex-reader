@@ -3,7 +3,6 @@
 import { getProxiedImageUrl } from '@/shared/lib/utils';
 import { Manga } from '@/shared/types/types';
 import Autoplay from 'embla-carousel-autoplay';
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './Carousel';
@@ -17,16 +16,6 @@ interface Props {
 export const PopularCarousel = ({ mangas, onHover }: Props) => {
   return (
     <div className="relative">
-      <motion.div
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="absolute text-white text-3xl font-semibold w-full items-center px-6 pt-4 z-10"
-      >
-        <div className="text-4xl font-bold bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-white">
-          Popular Titles
-        </div>
-      </motion.div>
-
       <Carousel
         opts={{ align: 'start', loop: true }}
         plugins={[Autoplay({ delay: 10000 })]}

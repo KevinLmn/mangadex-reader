@@ -1,28 +1,9 @@
 import axios, { AxiosError, AxiosInstance, InternalAxiosRequestConfig } from 'axios';
 
-/**
- * Refresh the access token from backend
- */
-const refreshAccessToken = async (): Promise<string> => {
-  try {
-    const token = localStorage.getItem('authToken');
-    const response = await axios.post<{ token: string }>(
-      `${process.env.NEXT_PUBLIC_API_URL}/api/refresh-token`,
-      { token }
-    );
-    const newToken = response.data.token;
+const isBrowser = typeof window !== 'undefined';
 
-    if (newToken) {
-      localStorage.setItem('authToken', newToken);
-      return newToken;
-    } else {
-      throw new Error('No token returned from refresh');
-    }
-  } catch (err) {
-    console.error('Token refresh failed:', err);
-    throw err;
-  }
-};
+const getToken = () => (isBrowser ? localStorage.getItem('authToken') : null);
+const removeToken = () => isBrowser && localStorage.removeItem('authToken');
 
 /**
  * Create axios instance with interceptor logic
@@ -39,7 +20,7 @@ const createAxiosInstance = (baseURL: string): AxiosInstance => {
   // Attach token on request
   instance.interceptors.request.use(
     (config: InternalAxiosRequestConfig) => {
-      const token = localStorage.getItem('authToken');
+      const token = getToken();
       if (token) {
         config.headers = config.headers || {};
         config.headers.Authorization = `Bearer ${token}`;
@@ -49,26 +30,17 @@ const createAxiosInstance = (baseURL: string): AxiosInstance => {
     error => Promise.reject(error)
   );
 
-  // Handle 401 errors and try refresh
+  // Handle 401 errors - clear token and reject
   instance.interceptors.response.use(
     response => response,
-    async (error: AxiosError) => {
-      const originalRequest = error.config as InternalAxiosRequestConfig & { _retry?: boolean };
-
-      if (error.response?.status === 401 && !originalRequest._retry) {
-        originalRequest._retry = true;
-
-        try {
-          const newToken = await refreshAccessToken();
-          originalRequest.headers = originalRequest.headers || {};
-          originalRequest.headers.Authorization = `Bearer ${newToken}`;
-          return instance(originalRequest);
-        } catch (err) {
-          localStorage.removeItem('authToken');
-          return Promise.reject(err);
+    (error: AxiosError) => {
+      if (error.response?.status === 401) {
+        removeToken();
+        // Redirect to login if in browser
+        if (isBrowser && !window.location.pathname.includes('/login')) {
+          window.location.href = '/login';
         }
       }
-
       return Promise.reject(error);
     }
   );

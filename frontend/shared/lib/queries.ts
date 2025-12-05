@@ -1,4 +1,4 @@
-import { useQuery, useQueryClient } from '@tanstack/react-query';
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { useEffect } from 'react';
 import { getImageFromDB, getTotalPagesFromDB, setImageInDB, setTotalPagesInDB } from './indexedDB';
 import api from './interceptor';
@@ -185,7 +185,6 @@ export const usePrefetchMangaCover = () => {
 };
 
 export function useChapterMetadata(chapterId: string) {
-  const queryClient = useQueryClient();
   return useQuery({
     queryKey: ['chapter-meta', chapterId],
     queryFn: async () => {
@@ -193,5 +192,121 @@ export function useChapterMetadata(chapterId: string) {
       return data.totalPages;
     },
     staleTime: 5 * 60 * 1000,
+  });
+}
+
+// Search
+export function useSearchManga(query: string, limit = 20, offset = 0) {
+  return useQuery({
+    queryKey: ['search-manga', query, limit, offset],
+    queryFn: async () => {
+      if (!query.trim()) return null;
+      const { data } = await api.get('/search', {
+        params: { q: query, limit, offset },
+      });
+      return data;
+    },
+    enabled: query.trim().length > 0,
+    staleTime: 1000 * 60 * 5, // 5 minutes
+  });
+}
+
+// Reading Progress
+interface ReadingProgress {
+  mangaId: string;
+  chapterId: string;
+  page: number;
+  totalPages: number | null;
+  updatedAt: string;
+}
+
+export function useReadingProgress(mangaId: string, enabled = true) {
+  return useQuery({
+    queryKey: ['reading-progress', mangaId],
+    queryFn: async () => {
+      const { data } = await api.get(`/progress/${mangaId}`);
+      return data as ReadingProgress | null;
+    },
+    enabled: enabled && !!mangaId,
+  });
+}
+
+export function useAllReadingProgress(limit = 10, enabled = true) {
+  return useQuery({
+    queryKey: ['reading-progress-all', limit],
+    queryFn: async () => {
+      const { data } = await api.get('/progress', { params: { limit } });
+      return data as ReadingProgress[];
+    },
+    enabled,
+  });
+}
+
+export function useSaveReadingProgress() {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: async (progress: {
+      mangaId: string;
+      chapterId: string;
+      page: number;
+      totalPages?: number;
+    }) => {
+      const { data } = await api.post('/progress', progress);
+      return data;
+    },
+    onSuccess: (data) => {
+      queryClient.setQueryData(['reading-progress', data.mangaId], data);
+      queryClient.invalidateQueries({ queryKey: ['reading-progress-all'] });
+    },
+  });
+}
+
+// Favorites
+export function useFavorites(enabled = true) {
+  return useQuery({
+    queryKey: ['favorites'],
+    queryFn: async () => {
+      const { data } = await api.get('/favorites');
+      return data;
+    },
+    enabled,
+  });
+}
+
+export function useIsFavorite(mangaId: string, enabled = true) {
+  return useQuery({
+    queryKey: ['favorite', mangaId],
+    queryFn: async () => {
+      const { data } = await api.get(`/favorites/${mangaId}`);
+      return data.isFavorite;
+    },
+    enabled: enabled && !!mangaId,
+  });
+}
+
+export function useAddFavorite() {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: async (mangaId: string) => {
+      const { data } = await api.post('/favorites', { mangaId });
+      return data;
+    },
+    onSuccess: (_, mangaId) => {
+      queryClient.invalidateQueries({ queryKey: ['favorites'] });
+      queryClient.setQueryData(['favorite', mangaId], true);
+    },
+  });
+}
+
+export function useRemoveFavorite() {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: async (mangaId: string) => {
+      await api.delete(`/favorites/${mangaId}`);
+    },
+    onSuccess: (_, mangaId) => {
+      queryClient.invalidateQueries({ queryKey: ['favorites'] });
+      queryClient.setQueryData(['favorite', mangaId], false);
+    },
   });
 }

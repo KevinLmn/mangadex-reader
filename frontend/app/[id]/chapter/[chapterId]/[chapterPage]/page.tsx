@@ -8,10 +8,11 @@ import { usePageImageCleanup } from '@/features/reader/hooks/usePageImageCleanup
 import { useReaderKeyboardNav } from '@/features/reader/hooks/useReaderKeyboardNav';
 import { buildReaderUrl } from '@/features/reader/utils/buildReaderUrl';
 import { Pagination } from '@/shared/components/Pagination';
+import { useAuth } from '@/shared/context/AuthContext';
 import { cleanOldEntries } from '@/shared/lib/indexedDB';
-import { useChapterMetadata, useCurrentPageImage, usePrefetchAdjacentPages } from '@/shared/lib/queries';
+import { useChapterMetadata, useCurrentPageImage, usePrefetchAdjacentPages, useSaveReadingProgress } from '@/shared/lib/queries';
 import { useParams, useRouter } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 export default function GetMangaPage() {
   const { id, chapterId, chapterPage } = useParams();
@@ -19,8 +20,12 @@ export default function GetMangaPage() {
   const page = Number(chapterPage);
   const [quality, setQuality] = useState<Quality>(Quality.HIGH);
   const [showShortcuts, setShowShortcuts] = useState(false);
+  const { user } = useAuth();
+  const saveProgress = useSaveReadingProgress();
+  const lastSavedRef = useRef<string>('');
 
   const safeChapterId = typeof chapterId === 'string' ? chapterId : '';
+  const mangaId = typeof id === 'string' ? id : '';
   const { data: pageData } = useCurrentPageImage(safeChapterId, page, quality);
   const { data: total } = useChapterMetadata(safeChapterId);
 
@@ -31,6 +36,22 @@ export default function GetMangaPage() {
   useEffect(() => {
     cleanOldEntries();
   }, []);
+
+  // Save reading progress when page changes
+  useEffect(() => {
+    if (!user || !mangaId || !safeChapterId || !page) return;
+
+    const progressKey = `${mangaId}-${safeChapterId}-${page}`;
+    if (lastSavedRef.current === progressKey) return;
+
+    lastSavedRef.current = progressKey;
+    saveProgress.mutate({
+      mangaId,
+      chapterId: safeChapterId,
+      page,
+      totalPages: total,
+    });
+  }, [user, mangaId, safeChapterId, page, total]);
 
   const objectUrl = useBlobObjectUrl(pageData?.blob);
 
