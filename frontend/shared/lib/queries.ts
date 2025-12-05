@@ -1,4 +1,4 @@
-import { useQuery, useQueryClient } from '@tanstack/react-query';
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { useEffect } from 'react';
 import { getImageFromDB, getTotalPagesFromDB, setImageInDB, setTotalPagesInDB } from './indexedDB';
 import api from './interceptor';
@@ -185,7 +185,6 @@ export const usePrefetchMangaCover = () => {
 };
 
 export function useChapterMetadata(chapterId: string) {
-  const queryClient = useQueryClient();
   return useQuery({
     queryKey: ['chapter-meta', chapterId],
     queryFn: async () => {
@@ -193,5 +192,69 @@ export function useChapterMetadata(chapterId: string) {
       return data.totalPages;
     },
     staleTime: 5 * 60 * 1000,
+  });
+}
+
+// Search
+export function useSearchManga(query: string, limit = 20, offset = 0) {
+  return useQuery({
+    queryKey: ['search-manga', query, limit, offset],
+    queryFn: async () => {
+      if (!query.trim()) return null;
+      const { data } = await api.get('/search', {
+        params: { q: query, limit, offset },
+      });
+      return data;
+    },
+    enabled: query.trim().length > 0,
+    staleTime: 1000 * 60 * 5, // 5 minutes
+  });
+}
+
+// Favorites
+export function useFavorites() {
+  return useQuery({
+    queryKey: ['favorites'],
+    queryFn: async () => {
+      const { data } = await api.get('/favorites');
+      return data;
+    },
+  });
+}
+
+export function useIsFavorite(mangaId: string) {
+  return useQuery({
+    queryKey: ['favorite', mangaId],
+    queryFn: async () => {
+      const { data } = await api.get(`/favorites/${mangaId}`);
+      return data.isFavorite;
+    },
+  });
+}
+
+export function useAddFavorite() {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: async (mangaId: string) => {
+      const { data } = await api.post('/favorites', { mangaId });
+      return data;
+    },
+    onSuccess: (_, mangaId) => {
+      queryClient.invalidateQueries({ queryKey: ['favorites'] });
+      queryClient.setQueryData(['favorite', mangaId], true);
+    },
+  });
+}
+
+export function useRemoveFavorite() {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: async (mangaId: string) => {
+      await api.delete(`/favorites/${mangaId}`);
+    },
+    onSuccess: (_, mangaId) => {
+      queryClient.invalidateQueries({ queryKey: ['favorites'] });
+      queryClient.setQueryData(['favorite', mangaId], false);
+    },
   });
 }

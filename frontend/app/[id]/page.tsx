@@ -2,6 +2,7 @@
 
 import { ChapterList } from '@/features/details/ChapterList';
 import { Card } from '@/shared/components/Card';
+import { FavoriteButton } from '@/shared/components/FavoriteButton';
 import { cleanOldEntries } from '@/shared/lib/indexedDB';
 import api from '@/shared/lib/interceptor';
 import { useMangaCover, useMangaDetails, usePrefetchFirstPage } from '@/shared/lib/queries';
@@ -97,7 +98,10 @@ export default function GetMangaById() {
             />
           )}
           <div className="mt-4">
-            <h1 className="text-2xl font-bold">{data?.manga.data.attributes?.title?.en}</h1>
+            <div className="flex items-start justify-between gap-2">
+              <h1 className="text-2xl font-bold">{data?.manga.data.attributes?.title?.en}</h1>
+              <FavoriteButton mangaId={id as string} />
+            </div>
             <p className="mt-2 text-gray-600 dark:text-gray-400">
               {data?.manga.data.attributes?.description?.en}
             </p>

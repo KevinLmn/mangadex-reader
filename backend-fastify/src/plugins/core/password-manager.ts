@@ -1,7 +1,10 @@
 import fp from "fastify-plugin";
 import bcrypt from "bcrypt";
 
-export interface PasswordManager {}
+export interface PasswordManager {
+  bcryptHash(value: string): Promise<string>;
+  bcryptCompare(value: string, hash: string): Promise<boolean>;
+}
 
 declare module "fastify" {
   export interface FastifyInstance {
@@ -9,7 +12,7 @@ declare module "fastify" {
   }
 }
 
-export function createPasswordManager(): PasswordManager       {
+export function createPasswordManager(): PasswordManager {
   return {
     async bcryptHash(value: string): Promise<string> {
       return bcrypt.hash(value, 12);
@@ -17,7 +20,7 @@ export function createPasswordManager(): PasswordManager       {
     async bcryptCompare(value: string, hash: string): Promise<boolean> {
       return bcrypt.compare(value, hash);
     },
-  } as const;
+  };
 }
 
 export default fp(
