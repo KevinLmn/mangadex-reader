@@ -405,3 +405,4 @@ model ReadingProgress {
 ## License
 
 MIT
+
