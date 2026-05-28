@@ -7,7 +7,7 @@ import { useAuth } from '@/shared/context/AuthContext';
 import { cleanOldEntries } from '@/shared/lib/indexedDB';
 import api from '@/shared/lib/interceptor';
 import { useMangaCover, useMangaDetails, usePrefetchFirstPage, useReadingProgress } from '@/shared/lib/queries';
-import { Chapter } from '@/shared/types/types';
+import { Chapter } from '@manga/shared-types';
 import { useQueryClient } from '@tanstack/react-query';
 import { ArrowLeft, PlayCircle } from 'lucide-react';
 import Image from 'next/image';

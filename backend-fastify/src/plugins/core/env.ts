@@ -20,6 +20,7 @@ declare module "fastify" {
       COOKIE_SECURED: boolean;
       RATE_LIMIT_MAX: number;
       JWT_SECRET: string;
+      TOKEN_ENCRYPTION_KEY: string;
     };
   }
 }
@@ -40,6 +41,7 @@ export const schema = {
     "REDIS_PORT",
     "COOKIE_SECRET",
     "JWT_SECRET",
+    "TOKEN_ENCRYPTION_KEY",
   ],
   properties: {
     DATABASE_URL: {
@@ -47,7 +49,7 @@ export const schema = {
     },
     PORT: {
       type: "number",
-      default: 3012,
+      default: 3022,
     },
     MANGADEX_USERNAME: {
       type: "string",
@@ -98,6 +100,10 @@ export const schema = {
     RATE_LIMIT_MAX: {
       type: "number",
       default: 100,
+    },
+    TOKEN_ENCRYPTION_KEY: {
+      type: "string",
+      pattern: "^[0-9a-fA-F]{64}$",
     },
   },
 };

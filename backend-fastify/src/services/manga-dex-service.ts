@@ -3,6 +3,7 @@ import axios from "axios";
 import { MangaDexService } from "../plugins/app/services/manga-dex-service.js";
 import { ServerError } from "../utils/index.js";
 import { AuthService } from "./auth-service.js";
+import { decrypt, encrypt, hmac } from "./crypto.js";
 
 const BASE_URL = process.env.MANGADEX_BASE_URL || "https://api.mangadex.org";
 
@@ -35,7 +36,7 @@ export function createMangaDexService(
 
       // If token is less than 14 minutes old, use it
       if (tokenAgeMinutes < 14) {
-        return { Authorization: `Bearer ${latestToken.token}` };
+        return { Authorization: `Bearer ${decrypt(latestToken.token)}` };
       }
 
       // Token is expired or close to expiry, try to refresh it
@@ -43,9 +44,16 @@ export function createMangaDexService(
         console.log("Token expired, attempting to refresh...");
         try {
           const newTokens = await authService.refreshToken(
-            latestToken.refreshToken
+            decrypt(latestToken.refreshToken)
           );
-          // Optionally save new tokens to DB here
+          await prisma.token.update({
+            where: { id: latestToken.id },
+            data: {
+              token: encrypt(newTokens.access_token),
+              refreshToken: encrypt(newTokens.refresh_token),
+              tokenHash: hmac(newTokens.access_token),
+            },
+          });
           return { Authorization: `Bearer ${newTokens.access_token}` };
         } catch (error) {
           console.log("Refresh failed, getting new token...");

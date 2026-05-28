@@ -3,6 +3,7 @@ import {
   Type,
 } from "@fastify/type-provider-typebox";
 import { FastifyReply, FastifyRequest } from "fastify";
+import { decrypt, encrypt, hmac } from "../../../services/crypto.js";
 
 const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
   fastify.post(
@@ -39,17 +40,14 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
     ) => {
       const currentToken = request.body.token;
 
-      const databaseToken = await fastify.prisma.token.findFirst({
+      const databaseToken = await fastify.prisma.token.findUnique({
         where: {
-          token: currentToken,
+          tokenHash: hmac(currentToken),
         },
       });
 
       if (!databaseToken) {
-        fastify.log.warn(
-          { token: currentToken },
-          "Token not found in database"
-        );
+        fastify.log.warn("Token not found in database");
         return reply.status(404).send({
           error: "Token not found",
         });
@@ -57,16 +55,17 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
 
       try {
         const tokens = await fastify.authService.refreshToken(
-          databaseToken.refreshToken
+          decrypt(databaseToken.refreshToken)
         );
 
         await fastify.prisma.token.update({
           where: {
-            token: databaseToken.token,
+            id: databaseToken.id,
           },
           data: {
-            token: tokens.access_token,
-            refreshToken: tokens.refresh_token,
+            token: encrypt(tokens.access_token),
+            refreshToken: encrypt(tokens.refresh_token),
+            tokenHash: hmac(tokens.access_token),
           },
         });
 

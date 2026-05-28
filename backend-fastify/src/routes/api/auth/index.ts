@@ -3,28 +3,34 @@ import {
   Type,
 } from "@fastify/type-provider-typebox";
 import { Prisma } from "@prisma/client";
+import {
+  AuthCredentials,
+  AuthErrorResponse,
+  AuthSuccessResponse,
+  AuthUser,
+} from "@manga/shared-types";
+
+const MAX_FAILED_ATTEMPTS = 5;
+const LOCKOUT_MS = 30 * 60 * 1000; // 30 minutes
 
 const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
   // Register
   fastify.post(
     "/register",
     {
+      config: {
+        rateLimit: {
+          max: 5,
+          timeWindow: "15 minutes",
+          keyGenerator: (req) =>
+            (req.body as { email?: string } | undefined)?.email ?? req.ip,
+        },
+      },
       schema: {
-        body: Type.Object({
-          email: Type.String({ format: "email" }),
-          password: Type.String({ minLength: 6 }),
-        }),
+        body: AuthCredentials,
         response: {
-          201: Type.Object({
-            user: Type.Object({
-              id: Type.String(),
-              email: Type.String(),
-            }),
-            token: Type.String(),
-          }),
-          400: Type.Object({
-            error: Type.String(),
-          }),
+          201: AuthSuccessResponse,
+          400: AuthErrorResponse,
         },
         tags: ["Auth"],
         summary: "Register a new user",
@@ -73,21 +79,22 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
   fastify.post(
     "/login",
     {
+      config: {
+        rateLimit: {
+          max: 5,
+          timeWindow: "15 minutes",
+          keyGenerator: (req) =>
+            (req.body as { email?: string } | undefined)?.email ?? req.ip,
+        },
+      },
       schema: {
-        body: Type.Object({
-          email: Type.String({ format: "email" }),
-          password: Type.String(),
-        }),
+        body: AuthCredentials,
         response: {
-          200: Type.Object({
-            user: Type.Object({
-              id: Type.String(),
-              email: Type.String(),
-            }),
-            token: Type.String(),
-          }),
-          401: Type.Object({
+          200: AuthSuccessResponse,
+          401: AuthErrorResponse,
+          423: Type.Object({
             error: Type.String(),
+            retryAfter: Type.Integer(),
           }),
         },
         tags: ["Auth"],
@@ -105,13 +112,40 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
         return reply.status(401).send({ error: "Invalid email or password" });
       }
 
+      if (user.lockedUntil && user.lockedUntil.getTime() > Date.now()) {
+        const retryAfter = Math.ceil(
+          (user.lockedUntil.getTime() - Date.now()) / 1000
+        );
+        reply.header("Retry-After", retryAfter);
+        return reply.status(423).send({
+          error: "Account temporarily locked due to too many failed attempts",
+          retryAfter,
+        });
+      }
+
       const validPassword = await fastify.passwordManager.bcryptCompare(
         password,
         user.password
       );
 
       if (!validPassword) {
+        const nextAttempts = user.failedLoginAttempts + 1;
+        const shouldLock = nextAttempts >= MAX_FAILED_ATTEMPTS;
+        await fastify.prisma.user.update({
+          where: { id: user.id },
+          data: {
+            failedLoginAttempts: shouldLock ? 0 : nextAttempts,
+            lockedUntil: shouldLock ? new Date(Date.now() + LOCKOUT_MS) : null,
+          },
+        });
         return reply.status(401).send({ error: "Invalid email or password" });
+      }
+
+      if (user.failedLoginAttempts > 0 || user.lockedUntil) {
+        await fastify.prisma.user.update({
+          where: { id: user.id },
+          data: { failedLoginAttempts: 0, lockedUntil: null },
+        });
       }
 
       const token = fastify.jwt.sign({ userId: user.id, email: user.email });
@@ -129,13 +163,8 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
     {
       schema: {
         response: {
-          200: Type.Object({
-            id: Type.String(),
-            email: Type.String(),
-          }),
-          401: Type.Object({
-            error: Type.String(),
-          }),
+          200: AuthUser,
+          401: AuthErrorResponse,
         },
         tags: ["Auth"],
         summary: "Get current user",

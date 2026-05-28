@@ -3,6 +3,7 @@ import {
   Type,
 } from "@fastify/type-provider-typebox";
 import axios from "axios";
+import { encrypt, hmac } from "../../../services/crypto.js";
 
 const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
   fastify.post(
@@ -46,8 +47,9 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
         fastify.log.info("Saving token to database...");
         await fastify.prisma.token.create({
           data: {
-            token: tokens.access_token,
-            refreshToken: tokens.refresh_token,
+            token: encrypt(tokens.access_token),
+            refreshToken: encrypt(tokens.refresh_token),
+            tokenHash: hmac(tokens.access_token),
           },
         });
 

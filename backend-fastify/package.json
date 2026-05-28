@@ -16,14 +16,21 @@
     "watch": "tsc -w",
     "dev": "pnpm run build && concurrently -k -p \"[{name}]\" -n \"TypeScript,App\" -c \"yellow.bold,cyan.bold\" \"pnpm:watch\" \"pnpm:dev:start\"",
     "dev:start": "pnpm run build && node --watch dist/server.js",
-    "warm-cache": "tsx src/scripts/warmCache.ts"
+    "warm-cache": "tsx src/scripts/warmCache.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:cov": "vitest run --coverage",
+    "test:db:up": "docker compose -f ../docker-compose.test.yml up -d --wait",
+    "test:db:down": "docker compose -f ../docker-compose.test.yml down -v",
+    "test:db:migrate": "DATABASE_URL=postgresql://kevin:password@localhost:5435/manga_test prisma migrate deploy"
   },
   "keywords": [],
-  "author": "Matthieu COUPPEY <m.couppey@qualit-enr.org>",
+  "author": "KevinLmn",
   "license": "ISC",
   "packageManager": "pnpm@10.11.0",
   "inject-workspace-packages": true,
   "dependencies": {
+    "@manga/shared-types": "workspace:*",
     "@aws-sdk/client-s3": "^3.850.0",
     "@fastify/autoload": "^6.3.1",
     "@fastify/cookie": "^11.0.2",
@@ -67,9 +74,12 @@
     "@types/mime-types": "^3.0.1",
     "@types/node": "^22.15.29",
     "@types/pg": "^8.15.4",
+    "@vitest/coverage-v8": "^4.1.5",
     "fastify-tsconfig": "^3.0.0",
     "form-data": "^4.0.2",
+    "ioredis-mock": "^8.13.1",
     "prisma": "^6.7.0",
-    "typescript": "~5.8.3"
+    "typescript": "~5.8.3",
+    "vitest": "^4.1.5"
   }
 }

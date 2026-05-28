@@ -5,7 +5,7 @@ import path from 'path'
 
 dotenv.config({ path: path.resolve(import.meta.dirname, '../../.env') })
 
-const BACK_END_URL = process.env.BACK_END_URL || 'http://localhost:3012'
+const BACK_END_URL = process.env.BACK_END_URL || 'http://localhost:3022'
 
 const CACHE_DIR = path.resolve(import.meta.dirname, '../../cache')
 

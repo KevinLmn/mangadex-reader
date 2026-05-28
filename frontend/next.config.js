@@ -30,7 +30,7 @@ const nextConfig = {
       {
         protocol: 'http',
         hostname: 'localhost',
-        port: '3012',
+        port: '3022',
         pathname: '/api/proxy/image/**',
       },
     ],
@@ -41,7 +41,7 @@ const nextConfig = {
     return config;
   },
   env: {
-    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3012',
+    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3022',
     NEXT_PUBLIC_FRONT_END_URL: process.env.NEXT_PUBLIC_FRONT_END_URL || 'http://localhost:3011',
   },
   async headers() {
@@ -66,6 +66,7 @@ const nextConfig = {
     ];
   },
   output: 'standalone',
+  transpilePackages: ['@manga/shared-types'],
   experimental: {
     outputFileTracingRoot: undefined,
   },

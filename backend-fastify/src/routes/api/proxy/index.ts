@@ -35,8 +35,9 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
           },
         });
 
-        // Set CORS headers
-        reply.header("Access-Control-Allow-Origin", "*");
+        // Set CORS headers — restricted to the configured frontend origin
+        reply.header("Access-Control-Allow-Origin", fastify.config.FRONT_END_URL);
+        reply.header("Vary", "Origin");
         reply.header("Access-Control-Allow-Methods", "GET, OPTIONS");
         reply.header(
           "Access-Control-Allow-Headers",

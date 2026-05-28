@@ -5,7 +5,7 @@ services:
       dockerfile: backend-fastify/Dockerfile.dev
     container_name: manga-backend-dev
     ports:
-      - '3012:3012'
+      - '3022:3022'
     env_file:
       - backend-fastify/.env
     volumes:
@@ -16,10 +16,12 @@ services:
       - CHOKIDAR_USEPOLLING=true
       - WATCHPACK_POLLING=true
     depends_on:
-      - redis
-      - postgres
+      redis:
+        condition: service_started
+      postgres:
+        condition: service_healthy
     working_dir: /app/backend-fastify
-    command: sh -c "pnpm exec prisma generate && pnpm dev"
+    command: sh -c "pnpm exec prisma generate && pnpm exec prisma migrate deploy && pnpm dev"
 
   frontend:
     build:
@@ -60,13 +62,18 @@ services:
     image: postgres:16-alpine
     container_name: manga-postgres-dev
     ports:
-      - '5433:5432'
+      - '5434:5432'
     environment:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - POSTGRES_DB=${POSTGRES_DB}
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}']
+      interval: 2s
+      timeout: 5s
+      retries: 15
     restart: unless-stopped
 
 volumes:

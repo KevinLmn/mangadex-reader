@@ -48,6 +48,6 @@ const createAxiosInstance = (baseURL: string): AxiosInstance => {
   return instance;
 };
 
-const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3012';
+const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3022';
 const api = createAxiosInstance(`${baseUrl}/api`);
 export default api;

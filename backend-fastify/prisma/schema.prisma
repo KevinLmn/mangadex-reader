@@ -2,9 +2,8 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 datasource db {
-  provider   = "postgresql"
-  url        = env("DATABASE_URL")
-  
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 generator client {
@@ -17,7 +16,8 @@ model Token {
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
   refreshToken String
-  token        String   @unique
+  token        String
+  tokenHash    String   @unique
 }
 
 model Manga {
@@ -45,20 +45,22 @@ model Chapter {
 }
 
 model User {
-  id              String            @id @default(uuid())
-  email           String            @unique
-  password        String
-  createdAt       DateTime          @default(now())
-  favorites       Favorite[]
-  readingProgress ReadingProgress[]
+  id                  String            @id @default(uuid())
+  email               String            @unique
+  password            String
+  createdAt           DateTime          @default(now())
+  failedLoginAttempts Int               @default(0)
+  lockedUntil         DateTime?
+  favorites           Favorite[]
+  readingProgress     ReadingProgress[]
 }
 
 model Favorite {
-  id        String   @id @default(uuid())
-  user      User     @relation(fields: [userId], references: [id])
-  userId    String
-  mangaId   String
-  addedAt   DateTime @default(now())
+  id      String   @id @default(uuid())
+  user    User     @relation(fields: [userId], references: [id])
+  userId  String
+  mangaId String
+  addedAt DateTime @default(now())
 
   @@unique([userId, mangaId])
 }

@@ -2,7 +2,7 @@
 import { Loading } from '@/shared/components/Loading';
 import { Reveal } from '@/shared/components/Reveal';
 import { usePrefetchMangaCover, usePrefetchMangaDetails } from '@/shared/lib/queries';
-import { Manga } from '@/shared/types/types';
+import { Manga } from '@manga/shared-types';
 import { memo } from 'react';
 import { MangaCard } from './MangaCard';
 

@@ -1,6 +1,6 @@
 'use client';
 import { Pagination } from '@/shared/components/Pagination';
-import { Chapter } from '@/shared/types/types';
+import { Chapter } from '@manga/shared-types';
 import { Download } from 'lucide-react';
 import Link from 'next/link';
 import { useRef } from 'react';

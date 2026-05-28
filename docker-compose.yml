@@ -5,7 +5,7 @@ services:
       dockerfile: backend/Dockerfile
     container_name: manga-backend
     ports:
-      - "3012:3012"
+      - "3022:3022"
     env_file:
       - backend/.env
     environment:

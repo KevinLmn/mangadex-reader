@@ -1,0 +1,19 @@
+{
+  "name": "@manga/shared-types",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./manga": "./src/manga.ts",
+    "./auth": "./src/auth.ts"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

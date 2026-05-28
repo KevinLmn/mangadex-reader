@@ -1,7 +1,7 @@
 'use client';
 
 import { getProxiedImageUrl } from '@/shared/lib/utils';
-import { Manga } from '@/shared/types/types';
+import { Manga } from '@manga/shared-types';
 import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -14,6 +14,8 @@ interface Props {
 }
 
 export const PopularCarousel = ({ mangas, onHover }: Props) => {
+  if (!mangas?.length) return null;
+
   return (
     <div className="relative">
       <Carousel
